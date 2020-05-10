@@ -31,10 +31,13 @@ import logging
 # the searchTheEgg signal is turned off infinitely often.
 env_vars = {}
 env_vars['searchTheEgg'] = 'boolean'
-
-#env_vars['comEmiterOperational'] = 'boolean'
+#env_vars['cameraOperational'] = 'boolean'
+#env_vars['enoughBrightness'] = 'boolean'
+#env_vars['lightsOperational'] = 'boolean'
+env_vars['comEmiterOperational'] = 'boolean'
 env_init = set()
-env_prog = {'searchTheEgg'} #[]<>
+env_prog = {'searchTheEgg', 'comEmiterOperational'} #[]<>
+#env_prog = {'searchTheEgg', 'cameraOperational', 'enoughBrightness', 'lightsOperational', 'comEmiterOperational'} #[]<>
 env_safe = set()
 
 # System dynamics
@@ -59,13 +62,13 @@ sys_safe = {
             '(quadrotorLocation = 5) -> X (quadrotorLocation = 4 || quadrotorLocation = 1 || quadrotorLocation = 6)',
             '(quadrotorLocation = 6) -> X (quadrotorLocation = 5 || quadrotorLocation = 2 || quadrotorLocation = 7)',
             '(quadrotorLocation = 7) -> X (quadrotorLocation = 6 || quadrotorLocation = 3)',
-            'batteryLevel > 0',
-            
+                       
             '(eggLocationVisited = 0 && quadrotorLocation != 7 && quadrotorLocation != 6 && quadrotorLocation != 3) -> X (eggLocationVisited = 0)',
-            '(quadrotorLocation = 0) -> X (eggLocationVisited = 0)',
-            '(eggLocationVisited = 0 && quadrotorLocation = 3) -> X (eggLocationVisited = 1)', #eggLocationVisited = 3
-            '(eggLocationVisited = 0 && quadrotorLocation = 6) -> X (eggLocationVisited = 2)', #eggLocationVisited = 6
-            '(eggLocationVisited = 0 && quadrotorLocation = 7) -> X (eggLocationVisited = 3)', #eggLocationVisited = 7         
+            '(quadrotorLocation = 0 && X quadrotorLocation = 0 -> X eggLocationVisited = eggLocationVisited)',
+            '(quadrotorLocation = 0 && X quadrotorLocation != 0 -> X eggLocationVisited = 0)',
+            '(eggLocationVisited = 0 && quadrotorLocation = 3) -> X (eggLocationVisited = 1)', 
+            '(eggLocationVisited = 0 && quadrotorLocation = 6) -> X (eggLocationVisited = 2)',
+            '(eggLocationVisited = 0 && quadrotorLocation = 7) -> X (eggLocationVisited = 3)',         
             '(eggLocationVisited = 1 && quadrotorLocation = 6) -> X (eggLocationVisited = 4)', 
             '(eggLocationVisited = 1 && quadrotorLocation = 7) -> X (eggLocationVisited = 5)',
             '(eggLocationVisited = 1 && quadrotorLocation != 7 && quadrotorLocation != 6 && quadrotorLocation != 0) -> X (eggLocationVisited = 1)',
@@ -83,12 +86,13 @@ sys_safe = {
             '(eggLocationVisited = 6 && quadrotorLocation != 3 && quadrotorLocation != 0) -> X (eggLocationVisited = 6)',           
             '(eggLocationVisited = 7 && quadrotorLocation != 0) -> X (eggLocationVisited = 7)', 
             
+            '(quadrotorLocation = 0 && eggLocationVisited = 7 && comEmiterOperational) -> eggCoordinatesSent',
+
+            'batteryLevel > 0',
             '!(quadrotorLocation = 0 && X quadrotorLocation = 0) <-> (X batteryLevel = batteryLevel -1)',
             '(quadrotorLocation = 0 && X quadrotorLocation = 0) <-> (X batteryLevel = batteryLevel +1)',  
-            
-            '(quadrotorLocation = 0 && eggLocationVisited = 7) <-> (X eggCoordinatesSent)',        
             }
-sys_prog = set()                # empty set
+sys_prog = set()               
 
 # System specification
 #
@@ -97,25 +101,32 @@ sys_prog = set()                # empty set
 # to the searchTheEgg signal by visiting the lower right corner.  The LTL
 # specification is given by
 #
-#     []<> X0 && [](searchTheEgg -> <>X7 && <>X3 && <>X6) && [](searchTheEgg -> <>X0)
-#boolean
-# Since this specification is not in GR(1) form, we introduce an
-# environment variable X7reach that is initialized to True and the
-# specification [](searchTheEgg -> <>X7 && <>X3 && <>X6) becomes
+#     []<> X0 && [](searchTheEgg && cameraOperational -> <>X7 && <>X3 && <>X6) && [](!(searchTheEgg && cameraOperational) -> <>X0)
 #
-#     [](X (X7reach) <-> X7 || (X7reach && !searchTheEgg)), []((X0reach && !searchTheEgg) || X (X0reach) <-> X0))
+# Since this specification is not in GR(1) form, we introduce three
+# environment variables X7reach X6reach X3 reach that are initialized to True and the specification :
+#     1. [](searchTheEgg && cameraOperational && (enoughBrightness || lightsOperational) -> <>X7 && <>X3 && <>X6)
+#     2. [](quadrotorLocation = 0 && eggLocationVisited = 7 && comEmiterOperational) -> <>eggCoordinatesSent
+# becomes :
+#
+#     1.1 [](X (X7reach) <-> (X7)) || (X7reach && !(searchTheEgg && cameraOperational && (enoughBrightness || lightsOperational))), 
+#     1.2 [](X (X6reach) <-> (X6)) || (X6reach && !(searchTheEgg && cameraOperational && (enoughBrightness || lightsOperational))),
+#     1.3 [](X (X3reach) <-> (X3)) || (X3reach && !(searchTheEgg && cameraOperational && (enoughBrightness || lightsOperational))),
+#     2.  [](X (sendCoordinates)) <-> (eggCoordinatesSent)) || (sendCoordinates && !(quadrotorLocation = 0 && eggLocationVisited = 7 && comEmiterOperational)),
 #
 # Augment the system description to make it GR(1)
 sys_vars['X7reach'] = 'boolean'
 sys_vars['X6reach'] = 'boolean'
 sys_vars['X3reach'] = 'boolean'
-sys_init = {'X7reach', 'X6reach', 'X3reach', 'batteryLevel = 1', 'quadrotorLocation = 0', 'eggLocationVisited = 0', 'eggCoordinatesSent'} #does not work with 2x sys_init ={...}
+#sys_vars['sendCoordinates'] = 'boolean'
+sys_init = {'X7reach', 'X6reach', 'X3reach', 'batteryLevel = 1', 'quadrotorLocation = 0', 'eggLocationVisited = 0', '!eggCoordinatesSent'} #does not work with 2x sys_init ={...}
 sys_safe |= {
-            '(X (X7reach) <-> (quadrotorLocation=7)) || (X7reach && !searchTheEgg)', 
-            '(X (X6reach) <-> (quadrotorLocation=6)) || (X6reach && !searchTheEgg)', 
-            '(X (X3reach) <-> (quadrotorLocation=3)) || (X3reach && !searchTheEgg)',
+            '(X (X7reach) <-> (quadrotorLocation=7)) || (X7reach && !(searchTheEgg))', 
+            '(X (X6reach) <-> (quadrotorLocation=6)) || (X6reach && !(searchTheEgg))', 
+            '(X (X3reach) <-> (quadrotorLocation=3)) || (X3reach && !(searchTheEgg))',
+           # '(X (sendCoordinates) <-> (eggCoordinatesSent)) || (sendCoordinates && !(quadrotorLocation = 0 && eggLocationVisited = 7 && comEmiterOperational))',
             }
-sys_prog |= {'X7reach', 'X6reach', 'X3reach', 'eggLocationVisited=7'}
+sys_prog |= {'eggLocationVisited = 7', 'eggCoordinatesSent'}
 
 # Create a GR(1) specification
 specs = spec.GRSpec(env_vars, sys_vars, env_init, sys_init, env_safe, sys_safe, env_prog, sys_prog)
