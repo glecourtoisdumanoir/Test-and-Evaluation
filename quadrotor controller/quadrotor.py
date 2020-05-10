@@ -25,14 +25,13 @@ import logging
 #  env_init && []env_safe && []<>env_prog_1 && ... && []<>env_prog_m ->
 #      sys_init && []sys_safe && []<>sys_prog_1 && ... && []<>sys_prog_n
 
-
-
 # Environment specification
 # The environment can issue a searchTheEgg signal that the robot must respond
 # to by moving to the lower right corner of the physicalGrid.  We assume that
 # the searchTheEgg signal is turned off infinitely often.
 env_vars = {}
 env_vars['searchTheEgg'] = 'boolean'
+
 #env_vars['comEmiterOperational'] = 'boolean'
 env_init = set()
 env_prog = {'searchTheEgg'} #[]<>
@@ -44,13 +43,13 @@ env_safe = set()
 # action.
 sys_vars = {}
 sys_vars['quadrotorLocation'] = (0, 7)
-sys_vars['batteryLevel'] = (0, 10)
-#sys_vars['X7visited'] = 'boolean'
-#sys_vars['X6visited'] = 'boolean'
-#sys_vars['X3visited'] = 'boolean'
-sys_init = {'quadrotorLocation=0', 'batteryLevel=1'}
-#sys_init = {"X7visited":False, "X6visited":False, "X3visited":False}
+sys_vars['eggCoordinatesSent'] = 'boolean'
+sys_vars['eggLocationVisited'] = (0, 7) #does not work with [0, 3, 6, 7, 36, 37, 67, 367]
+# [0, 3, 6, 7, 36, 37, 67, 367] is equivalent to ...
+# [0, 1, 2, 3,  4,  5,  6,   7]
 
+#, 6, 7, 36, 37, 67, 367
+sys_vars['batteryLevel'] = (0, 10)
 sys_safe = {
             '(quadrotorLocation = 0) -> X (quadrotorLocation = 0 || quadrotorLocation = 4 || quadrotorLocation = 1)',
             '(quadrotorLocation = 1) -> X (quadrotorLocation = 0 || quadrotorLocation = 5 || quadrotorLocation = 2)',
@@ -61,12 +60,33 @@ sys_safe = {
             '(quadrotorLocation = 6) -> X (quadrotorLocation = 5 || quadrotorLocation = 2 || quadrotorLocation = 7)',
             '(quadrotorLocation = 7) -> X (quadrotorLocation = 6 || quadrotorLocation = 3)',
             'batteryLevel > 0',
+            
+            '(eggLocationVisited = 0 && quadrotorLocation != 7 && quadrotorLocation != 6 && quadrotorLocation != 3) -> X (eggLocationVisited = 0)',
+            '(quadrotorLocation = 0) -> X (eggLocationVisited = 0)',
+            '(eggLocationVisited = 0 && quadrotorLocation = 3) -> X (eggLocationVisited = 1)', #eggLocationVisited = 3
+            '(eggLocationVisited = 0 && quadrotorLocation = 6) -> X (eggLocationVisited = 2)', #eggLocationVisited = 6
+            '(eggLocationVisited = 0 && quadrotorLocation = 7) -> X (eggLocationVisited = 3)', #eggLocationVisited = 7         
+            '(eggLocationVisited = 1 && quadrotorLocation = 6) -> X (eggLocationVisited = 4)', 
+            '(eggLocationVisited = 1 && quadrotorLocation = 7) -> X (eggLocationVisited = 5)',
+            '(eggLocationVisited = 1 && quadrotorLocation != 7 && quadrotorLocation != 6 && quadrotorLocation != 0) -> X (eggLocationVisited = 1)',
+            '(eggLocationVisited = 2 && quadrotorLocation = 3) -> X (eggLocationVisited = 4)',
+            '(eggLocationVisited = 2 && quadrotorLocation = 7) -> X (eggLocationVisited = 6)',
+            '(eggLocationVisited = 2 && quadrotorLocation != 7 && quadrotorLocation != 3 && quadrotorLocation != 0) -> X (eggLocationVisited = 2)',
+            '(eggLocationVisited = 3 && quadrotorLocation = 3) -> X (eggLocationVisited = 5)',
+            '(eggLocationVisited = 3 && quadrotorLocation = 6) -> X (eggLocationVisited = 4)',
+            '(eggLocationVisited = 3 && quadrotorLocation != 6 && quadrotorLocation != 3 && quadrotorLocation != 0) -> X (eggLocationVisited = 3)',
+            '(eggLocationVisited = 4 && quadrotorLocation = 7) -> X (eggLocationVisited = 7)',
+            '(eggLocationVisited = 4 && quadrotorLocation != 7 && quadrotorLocation != 0) -> X (eggLocationVisited = 4)',
+            '(eggLocationVisited = 5 && quadrotorLocation = 6) -> X (eggLocationVisited = 7)',
+            '(eggLocationVisited = 5 && quadrotorLocation != 6 && quadrotorLocation != 0) -> X (eggLocationVisited = 5)',
+            '(eggLocationVisited = 6 && quadrotorLocation = 3) -> X (eggLocationVisited = 7)',
+            '(eggLocationVisited = 6 && quadrotorLocation != 3 && quadrotorLocation != 0) -> X (eggLocationVisited = 6)',           
+            '(eggLocationVisited = 7 && quadrotorLocation != 0) -> X (eggLocationVisited = 7)', 
+            
             '!(quadrotorLocation = 0 && X quadrotorLocation = 0) <-> (X batteryLevel = batteryLevel -1)',
-            '(quadrotorLocation = 0 && X quadrotorLocation = 0) <-> (X batteryLevel = batteryLevel +1)',
-            #'X X7reach <-> eggFound = eggFound +1,
-            #'X X6reach <-> X X X6visited',
-            #'X X3reach <-> X X X3visited',
-            #'comEmiterOperational = True',
+            '(quadrotorLocation = 0 && X quadrotorLocation = 0) <-> (X batteryLevel = batteryLevel +1)',  
+            
+            '(quadrotorLocation = 0 && eggLocationVisited = 7) <-> (X eggCoordinatesSent)',        
             }
 sys_prog = set()                # empty set
 
@@ -86,17 +106,16 @@ sys_prog = set()                # empty set
 #     [](X (X7reach) <-> X7 || (X7reach && !searchTheEgg)), []((X0reach && !searchTheEgg) || X (X0reach) <-> X0))
 #
 # Augment the system description to make it GR(1)
-#sys_vars['EggReach'] = 'boolean'
 sys_vars['X7reach'] = 'boolean'
 sys_vars['X6reach'] = 'boolean'
 sys_vars['X3reach'] = 'boolean'
-sys_init = {'X7reach', 'X6reach', 'X3reach'}
+sys_init = {'X7reach', 'X6reach', 'X3reach', 'batteryLevel = 1', 'quadrotorLocation = 0', 'eggLocationVisited = 0', 'eggCoordinatesSent'} #does not work with 2x sys_init ={...}
 sys_safe |= {
             '(X (X7reach) <-> (quadrotorLocation=7)) || (X7reach && !searchTheEgg)', 
             '(X (X6reach) <-> (quadrotorLocation=6)) || (X6reach && !searchTheEgg)', 
             '(X (X3reach) <-> (quadrotorLocation=3)) || (X3reach && !searchTheEgg)',
             }
-sys_prog |= {'X7reach', 'X6reach', 'X3reach', 'quadrotorLocation = 0'}
+sys_prog |= {'X7reach', 'X6reach', 'X3reach', 'eggLocationVisited=7'}
 
 # Create a GR(1) specification
 specs = spec.GRSpec(env_vars, sys_vars, env_init, sys_init, env_safe, sys_safe, env_prog, sys_prog)
