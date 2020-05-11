@@ -14,7 +14,7 @@ import logging
 #    --------------
 #    -- X0 -- X4 --     Segway: X0 
 #    -- X1 -- X5 --     Egg: X7 || X3 || X6
-#    -- X2 -- X6 --     Wind: X2
+#    -- X2 -- X6 --     Wind (static obstacle): X2
 #    -- X3 -- X7 --
 #    --------------
 #
@@ -32,9 +32,11 @@ import logging
 env_vars = {}
 env_vars['searchTheEgg'] = 'boolean'
 env_vars['wind'] = (1, 7)
-env_init = set()  
+env_init = set() #env_vars initialized in the simulate.py document
 env_prog = {'searchTheEgg'} #[]<>
-env_safe = {'X wind = wind'} #static wind
+env_safe = {
+            'X wind = wind', #static obstacle
+           } 
 
 # System dynamics
 # The system dynamics describes how the system is allowed to move
