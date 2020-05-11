@@ -12,9 +12,9 @@ import logging
 # The environment consists of a single state called 'searchTheEgg' that
 # indicates that the quadrotor should move to cells  X7/X6/X3.
 #    --------------
-#    -- X0 -- X4 --     Segway: X0, Egg: X7 || X3 || X6
-#    -- X1 -- X5 --
-#    -- X2 -- X6 --
+#    -- X0 -- X4 --     Segway: X0 
+#    -- X1 -- X5 --     Egg: X7 || X3 || X6
+#    -- X2 -- X6 --     Wind: X2
 #    -- X3 -- X7 --
 #    --------------
 #
@@ -31,9 +31,10 @@ import logging
 # the searchTheEgg signal is turned on infinitely often.
 env_vars = {}
 env_vars['searchTheEgg'] = 'boolean'
-env_init = set()
+env_vars['wind'] = (1, 7)
+env_init = set()  
 env_prog = {'searchTheEgg'} #[]<>
-env_safe = set()
+env_safe = {'X wind = wind'} #static wind
 
 # System dynamics
 # The system dynamics describes how the system is allowed to move
@@ -50,16 +51,16 @@ sys_vars['X3reach'] = 'boolean'
 # [0, 1, 2, 3,  4,  5,  6,   7]
 
 #, 6, 7, 36, 37, 67, 367
-sys_vars['batteryLevel'] = (0, 10)
+sys_vars['batteryLevel'] = (0, 15)
 sys_safe = {
             '(quadrotorLocation = 0) -> X (quadrotorLocation = 0 || quadrotorLocation = 4 || quadrotorLocation = 1)',
-            '(quadrotorLocation = 1) -> X (quadrotorLocation = 0 || quadrotorLocation = 5 || quadrotorLocation = 2)',
-            '(quadrotorLocation = 2) -> X (quadrotorLocation = 1 || quadrotorLocation = 6 || quadrotorLocation = 3)',
-            '(quadrotorLocation = 3) -> X (quadrotorLocation = 2 || quadrotorLocation = 7)',
-            '(quadrotorLocation = 4) -> X (quadrotorLocation = 0 || quadrotorLocation = 5)',
-            '(quadrotorLocation = 5) -> X (quadrotorLocation = 4 || quadrotorLocation = 1 || quadrotorLocation = 6)',
-            '(quadrotorLocation = 6) -> X (quadrotorLocation = 5 || quadrotorLocation = 2 || quadrotorLocation = 7)',
-            '(quadrotorLocation = 7) -> X (quadrotorLocation = 6 || quadrotorLocation = 3)',
+            '(quadrotorLocation = 1) -> X (quadrotorLocation = 1 || quadrotorLocation = 0 || quadrotorLocation = 5 || quadrotorLocation = 2)',
+            '(quadrotorLocation = 2) -> X (quadrotorLocation = 2 || quadrotorLocation = 1 || quadrotorLocation = 6 || quadrotorLocation = 3)',
+            '(quadrotorLocation = 3) -> X (quadrotorLocation = 3 || quadrotorLocation = 2 || quadrotorLocation = 7)',
+            '(quadrotorLocation = 4) -> X (quadrotorLocation = 4 || quadrotorLocation = 0 || quadrotorLocation = 5)',
+            '(quadrotorLocation = 5) -> X (quadrotorLocation = 5 || quadrotorLocation = 4 || quadrotorLocation = 1 || quadrotorLocation = 6)',
+            '(quadrotorLocation = 6) -> X (quadrotorLocation = 6 || quadrotorLocation = 5 || quadrotorLocation = 2 || quadrotorLocation = 7)',
+            '(quadrotorLocation = 7) -> X (quadrotorLocation = 7 || quadrotorLocation = 6 || quadrotorLocation = 3)',
                        
             '(eggLocationVisited = 0 && quadrotorLocation != 7 && quadrotorLocation != 6 && quadrotorLocation != 3) -> X (eggLocationVisited = 0)',
             '(quadrotorLocation = 0 -> X eggLocationVisited = 0)',
@@ -87,7 +88,9 @@ sys_safe = {
 
             'batteryLevel > 0',
             '!(quadrotorLocation = 0 && X quadrotorLocation = 0) <-> (X batteryLevel = batteryLevel -1)',
-            '(quadrotorLocation = 0 && X quadrotorLocation = 0) <-> (X batteryLevel = batteryLevel +1)',  
+            '(quadrotorLocation = 0 && X quadrotorLocation = 0) <-> (X batteryLevel = batteryLevel +1)', 
+            
+            'wind=2 -> !(quadrotorLocation=2)', 
             }
 sys_prog = set()               
 
