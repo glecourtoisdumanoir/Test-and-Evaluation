@@ -2,7 +2,7 @@ from tulip import transys
 from tulip import spec
 from tulip import synth
 from tulip import dumpsmach
-import logging
+from tulip.transys import machines
 # 
 # The system is modeled as a discrete transition system in which the
 # quadrotor is firstly located on a segway. The quadrotor can be located anyplace on a 4x2 grid of cells. 
@@ -14,7 +14,7 @@ import logging
 #    --------------
 #    -- X0 -- X4 --     Segway: X0 
 #    -- X1 -- X5 --     Egg: X7 || X3 || X6
-#    -- X2 -- X6 --     Wind (static obstacle): X2
+#    -- X2 -- X6 --     Wind (moving obstacle): X1-X2-X3-X7-X6-X5-X4-X5-X1
 #    -- X3 -- X7 --
 #    --------------
 #
@@ -34,8 +34,14 @@ env_vars['searchTheEgg'] = 'boolean'
 env_vars['wind'] = (1, 7)
 env_init = set() #env_vars initialized in the simulate.py document
 env_prog = {'searchTheEgg'} #[]<>
-env_safe = {
-            'X wind = wind', #static obstacle
+env_safe = { #moving obstacle
+            '(wind = 1) -> X (wind = 2 || wind = 5)', 
+            '(wind = 2) -> X (wind = 1 || wind = 3 || wind = 6)',
+            '(wind = 3) -> X (wind = 2 || wind = 7)',
+            '(wind = 4) -> X (wind = 5)',
+            '(wind = 5) -> X (wind = 4 || wind = 1 || wind = 6)',
+            '(wind = 6) -> X (wind = 5 || wind = 2 || wind = 7)',
+            '(wind = 7) -> X (wind = 6 || wind = 3)',
            } 
 
 # System dynamics
@@ -92,7 +98,13 @@ sys_safe = {
             '!(quadrotorLocation = 0 && X quadrotorLocation = 0) <-> (X batteryLevel = batteryLevel -1)',
             '(quadrotorLocation = 0 && X quadrotorLocation = 0) <-> (X batteryLevel = batteryLevel +1)', 
             
-            'wind=2 -> !(quadrotorLocation=2)', 
+            'wind=1 -> !(quadrotorLocation=1)',
+            'wind=2 -> !(quadrotorLocation=2)',
+            'wind=3 -> !(quadrotorLocation=3)', 
+            'wind=4 -> !(quadrotorLocation=4)',
+            'wind=5 -> !(quadrotorLocation=5)',
+            'wind=6 -> !(quadrotorLocation=6)',
+            'wind=7 -> !(quadrotorLocation=7)',
             }
 sys_prog = set()               
 
@@ -129,7 +141,8 @@ specs.moore = True
 specs.qinit = '\E \A'
 
 # Controller synthesis
-ctrl = synth.synthesize('omega', specs)
-assert ctrl is not None, 'unrealizable'
+strategy = synth.synthesize('omega', specs)
+assert strategy is not None, 'unrealizable'
 
-dumpsmach.write_python_case("quadrotorController.py", ctrl, classname="controller")
+dumpsmach.write_python_case("quadrotorController.py", strategy, classname="controller")
+machines.random_run(strategy, N=100)
