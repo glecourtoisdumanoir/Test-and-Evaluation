@@ -14,7 +14,7 @@ from tulip.transys import machines
 #    --------------
 #    -- X0 -- X4 --     Segway: X0 
 #    -- X1 -- X5 --     Egg: X7 || X3 || X6
-#    -- X2 -- X6 --     Wind (moving obstacle): X1-X2-X3-X7-X6-X5-X4-X5-X1
+#    -- X2 -- X6 --     Wind (moving obstacle): X1-X2-X3-X7-X6-X5-X4-X5-X1...
 #    -- X3 -- X7 --
 #    --------------
 #
@@ -51,14 +51,20 @@ env_safe = { #moving obstacle
 sys_vars = {}
 sys_vars['quadrotorLocation'] = (0, 7)
 sys_vars['eggCoordinatesSent'] = 'boolean'
-sys_vars['eggLocationVisited'] = (0, 7) #does not work with [0, 3, 6, 7, 36, 37, 67, 367]
+sys_vars['eggLocationVisited'] = (0, 7) 
+# visiting only location 3 gives value 1 to eggLocationVisited 
+# visiting only location 6 gives value 2 to eggLocationVisited
+# visiting only location 7 gives value 3 to eggLocationVisited
+# visiting locations 3 and 6 gives value 4 to eggLocationVisited
+# visiting locations 3 and 7 gives value 5 to eggLocationVisited
+# visiting locations 6 and 7 gives value 6 to eggLocationVisited
+# visiting locations 3 and 6 and 7 gives value 7 to eggLocationVisited
+# eggLocationVisited :
+# [0, 3, 6, 7, 36, 37, 67, 367] is equivalent to...
+# [0, 1, 2, 3,  4,  5,  6,   7]
 sys_vars['X7reach'] = 'boolean'
 sys_vars['X6reach'] = 'boolean'
 sys_vars['X3reach'] = 'boolean'
-# [0, 3, 6, 7, 36, 37, 67, 367] is equivalent to ...
-# [0, 1, 2, 3,  4,  5,  6,   7]
-
-#, 6, 7, 36, 37, 67, 367
 sys_vars['batteryLevel'] = (0, 15)
 sys_safe = {
             '(quadrotorLocation = 0) -> X (quadrotorLocation = 0 || quadrotorLocation = 4 || quadrotorLocation = 1)',
