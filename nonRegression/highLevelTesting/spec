@@ -1,0 +1,31 @@
+# never hover over black squares
+pattern P1 :
+  COMMAND{Type: "PetterEx", Name : "startSimulation"} =>
+    {
+	!EVR{xPosition : x, yPosition : y} where |x < 2.0| and |y < 2.0|,
+	!EVR{xPosition : x, yPosition : y} where |x < 2.0| and |y > 3.0|,
+	!EVR{xPosition : x, yPosition : y} where |x > 3.0| and |y > 3.0|,
+	!EVR{xPosition : x, yPosition : y} where |x > 3.0| and |y < 2.0|
+    }
+
+
+# the system shall eventually visit N, S, E and W locations
+pattern P2 :
+  COMMAND{Type: "PetterEx", Name : "startSimulation"} =>
+    {
+	EVR{xPosition : x, yPosition : y} where |2.0 < x < 3.0| and |y <= 1.0|, # south
+	EVR{xPosition : x, yPosition : y} where |2.0 < x < 3.0| and |y >= 4.0|, # north
+	EVR{xPosition : x, yPosition : y} where |2.0 < y < 3.0| and |x <= 4.0|, # west
+	EVR{xPosition : x, yPosition : y} where |2.0 < y < 3.0| and |x >= 4.0| # east
+    }
+
+
+# the system shall not switch direction when it is located outside the central pink square
+#pattern P3 :
+#  COMMAND{Type: "PetterEx", Name : "startSimulation"} =>
+#    [
+#	EVR{xPosition : x1, yPosition : y1, Time : t1} where (|2 < x1 < 3| and (|y1 < 2| or |y1 > 3|)),
+#	!EVR{xPosition : x2, yPosition : y2, Time : t2} where (|t2-t1 == 5| and |abs(x2-x1) > 0.15| and (|y2 < 2| or |y2 > 3|)),
+#	EVR{xPosition : x3, yPosition : y3, Time : t3} where (|2 < y3 < 3| and (|x3 < 2| or |x3 > 3|)),
+#	!EVR{xPosition : x4, yPosition : y4, Time : t4} where (|t4-t3 == 5| and |abs(y4-y3) > 0.15| and (|x4 < 2| or |x4 > 3|))
+#   ]

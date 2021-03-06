@@ -1,0 +1,22 @@
+digraph states {
+node [shape = circle];
+    node_S1[label="@ S1",style=filled,color=lightgrey];
+    node_S2[label="S2"];
+    node_S3[label="S3"];
+    node_S4[label="S4"];
+    node_S5[label="S5"];
+    node_error_1[label="# error",style=filled,color=black,fontcolor=white];
+    node_error_2[label="# error",style=filled,color=black,fontcolor=white];
+    node_error_3[label="# error",style=filled,color=black,fontcolor=white];
+    node_error_4[label="# error",style=filled,color=black,fontcolor=white];
+    node_P1[label="",shape=triangle,color=blue]
+    node_S1 -> node_P1[label="COMMAND{Type : \"PetterEx\",Name : \"startSimulation\"}"];
+    node_P1 -> node_S2[color=blue,style=dotted];
+    node_P1 -> node_S3[color=blue,style=dotted];
+    node_P1 -> node_S4[color=blue,style=dotted];
+    node_P1 -> node_S5[color=blue,style=dotted];
+    node_S2 -> node_error_1[label="EVR{xPosition : x,yPosition : y} where |x < 2.0| and |y < 2.0|"];
+    node_S3 -> node_error_2[label="EVR{xPosition : x,yPosition : y} where |x < 2.0| and |y > 3.0|"];
+    node_S4 -> node_error_3[label="EVR{xPosition : x,yPosition : y} where |x > 3.0| and |y > 3.0|"];
+    node_S5 -> node_error_4[label="EVR{xPosition : x,yPosition : y} where |x > 3.0| and |y < 2.0|"];
+}

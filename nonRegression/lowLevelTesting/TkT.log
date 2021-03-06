@@ -1,0 +1,550 @@
+"23:06:41.464 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""23:06:41.475 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""23:06:41.475 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""23:06:41.475 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""23:06:41.541 [main] FATAL it.unimib.disco.lta.timedKTail.traces.Parser @ Errore Parser Traccia: validTraces/PetterExampleV1.csv
+" java.util.NoSuchElementException
+	at java.base/java.util.LinkedList.removeFirst(LinkedList.java:274) ~[?:?]
+	at java.base/java.util.LinkedList.pop(LinkedList.java:805) ~[?:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.newEvent(Parser.java:235) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readTraceFile(Parser.java:142) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readFolder(Parser.java:67) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferAutomata(Main.java:186) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferTimedAutomata(Main.java:154) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.InferModel.main(InferModel.java:23) [tkt.jar:?]
+"23:06:41.582 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/tkt-master/TimedKTail/TKTTutorial/PetterExample/TA.jtml
+""23:06:52.113 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""23:06:52.123 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""23:06:52.124 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""23:06:52.124 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""23:06:52.141 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/tkt-master/TimedKTail/TKTTutorial/PetterExample/TA.jtml
+""23:08:33.464 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""23:08:33.474 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""23:08:33.475 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""23:08:33.475 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""23:08:33.481 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/tkt-master/TimedKTail/TKTTutorial/PetterExample/TA.jtml
+""23:09:28.922 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""23:09:28.933 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""23:09:28.934 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""23:09:28.934 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""23:09:28.938 [main] FATAL it.unimib.disco.lta.timedKTail.traces.Parser @ Errore Parser Traccia: validTraces/PetterExampleV1.csv
+" java.util.NoSuchElementException
+	at java.base/java.util.LinkedList.removeFirst(LinkedList.java:274) ~[?:?]
+	at java.base/java.util.LinkedList.pop(LinkedList.java:805) ~[?:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.newEvent(Parser.java:235) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readTraceFile(Parser.java:142) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readFolder(Parser.java:67) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferAutomata(Main.java:186) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferTimedAutomata(Main.java:154) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.InferModel.main(InferModel.java:23) [tkt.jar:?]
+"23:09:28.977 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/tkt-master/TimedKTail/TKTTutorial/PetterExample/TA.jtml
+""23:09:56.887 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""23:09:56.902 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""23:09:56.903 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""23:09:56.903 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""23:09:56.915 [main] FATAL it.unimib.disco.lta.timedKTail.traces.Parser @ Errore Parser Traccia: validTraces/PetterExampleV1.csv
+" java.lang.IllegalStateException: Unexpected: movingToMiddle:E expecting movingToTop
+	at it.unimib.disco.lta.timedKTail.algorithm.PhaseI.elaborateTrace(PhaseI.java:144) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.algorithm.TimedKTail.elaborateTrace(TimedKTail.java:53) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.ObserverTimedAutomataTraceBuilder.processTrace(ObserverTimedAutomataTraceBuilder.java:59) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readTraceFile(Parser.java:133) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readFolder(Parser.java:67) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferAutomata(Main.java:186) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferTimedAutomata(Main.java:154) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.InferModel.main(InferModel.java:23) [tkt.jar:?]
+"23:10:54.146 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""23:10:54.158 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""23:10:54.159 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""23:10:54.159 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""23:10:54.171 [main] FATAL it.unimib.disco.lta.timedKTail.traces.Parser @ Errore Parser Traccia: validTraces/PetterExampleV1.csv
+" java.lang.IllegalStateException: Unexpected: movingToTop:E expecting movingToMiddle
+	at it.unimib.disco.lta.timedKTail.algorithm.PhaseI.elaborateTrace(PhaseI.java:144) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.algorithm.TimedKTail.elaborateTrace(TimedKTail.java:53) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.ObserverTimedAutomataTraceBuilder.processTrace(ObserverTimedAutomataTraceBuilder.java:59) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readTraceFile(Parser.java:133) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readFolder(Parser.java:67) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferAutomata(Main.java:186) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferTimedAutomata(Main.java:154) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.InferModel.main(InferModel.java:23) [tkt.jar:?]
+"23:15:52.482 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""23:15:52.496 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""23:15:52.496 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""23:15:52.496 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""23:15:52.508 [main] FATAL it.unimib.disco.lta.timedKTail.traces.Parser @ Errore Parser Traccia: validTraces/PetterExampleV1.csv
+" java.lang.IllegalStateException: Unexpected: movingToTop:E expecting movingToMiddle
+	at it.unimib.disco.lta.timedKTail.algorithm.PhaseI.elaborateTrace(PhaseI.java:144) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.algorithm.TimedKTail.elaborateTrace(TimedKTail.java:53) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.ObserverTimedAutomataTraceBuilder.processTrace(ObserverTimedAutomataTraceBuilder.java:59) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readTraceFile(Parser.java:133) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readFolder(Parser.java:67) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferAutomata(Main.java:186) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferTimedAutomata(Main.java:154) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.InferModel.main(InferModel.java:23) [tkt.jar:?]
+"23:16:45.086 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""23:16:45.097 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""23:16:45.098 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""23:16:45.098 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""23:16:45.106 [main] FATAL it.unimib.disco.lta.timedKTail.traces.Parser @ Errore Parser Traccia: validTraces/PetterExampleV1.csv
+" java.lang.IllegalStateException: Unexpected: movingToTop:E expecting movingToMiddle
+	at it.unimib.disco.lta.timedKTail.algorithm.PhaseI.elaborateTrace(PhaseI.java:144) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.algorithm.TimedKTail.elaborateTrace(TimedKTail.java:53) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.ObserverTimedAutomataTraceBuilder.processTrace(ObserverTimedAutomataTraceBuilder.java:59) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readTraceFile(Parser.java:133) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readFolder(Parser.java:67) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferAutomata(Main.java:186) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferTimedAutomata(Main.java:154) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.InferModel.main(InferModel.java:23) [tkt.jar:?]
+"23:19:41.383 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""23:19:41.395 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""23:19:41.395 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""23:19:41.396 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""23:19:41.406 [main] FATAL it.unimib.disco.lta.timedKTail.traces.Parser @ Errore Parser Traccia: validTraces/PetterExampleV1.csv
+" java.lang.IllegalStateException: Unexpected: movingToTop:E expecting movingToMiddle
+	at it.unimib.disco.lta.timedKTail.algorithm.PhaseI.elaborateTrace(PhaseI.java:144) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.algorithm.TimedKTail.elaborateTrace(TimedKTail.java:53) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.ObserverTimedAutomataTraceBuilder.processTrace(ObserverTimedAutomataTraceBuilder.java:59) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readTraceFile(Parser.java:133) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readFolder(Parser.java:67) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferAutomata(Main.java:186) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferTimedAutomata(Main.java:154) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.InferModel.main(InferModel.java:23) [tkt.jar:?]
+"23:20:54.926 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""23:20:54.936 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""23:20:54.936 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""23:20:54.936 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""23:20:54.951 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/tkt-master/TimedKTail/TKTTutorial/PetterExample/TA.jtml
+""23:21:43.797 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""23:21:43.808 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""23:21:43.808 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""23:21:43.808 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""23:21:43.817 [main] FATAL it.unimib.disco.lta.timedKTail.traces.Parser @ Errore Parser Traccia: validTraces/PetterExampleV1.csv
+" java.lang.IllegalStateException: Unexpected: movingToTop:E expecting movingToMiddle
+	at it.unimib.disco.lta.timedKTail.algorithm.PhaseI.elaborateTrace(PhaseI.java:144) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.algorithm.TimedKTail.elaborateTrace(TimedKTail.java:53) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.ObserverTimedAutomataTraceBuilder.processTrace(ObserverTimedAutomataTraceBuilder.java:59) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readTraceFile(Parser.java:133) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readFolder(Parser.java:67) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferAutomata(Main.java:186) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferTimedAutomata(Main.java:154) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.InferModel.main(InferModel.java:23) [tkt.jar:?]
+"23:22:08.142 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""23:22:08.156 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""23:22:08.156 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""23:22:08.156 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""23:22:08.172 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/tkt-master/TimedKTail/TKTTutorial/PetterExample/TA.jtml
+""23:36:26.809 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""23:36:26.818 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""23:36:26.819 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""23:36:26.819 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""23:36:26.828 [main] FATAL it.unimib.disco.lta.timedKTail.traces.Parser @ Errore Parser Traccia: validTraces/PetterExampleV1.csv
+" java.lang.IllegalStateException: Unexpected: movingToMiddle:E expecting movingToTop
+	at it.unimib.disco.lta.timedKTail.algorithm.PhaseI.elaborateTrace(PhaseI.java:144) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.algorithm.TimedKTail.elaborateTrace(TimedKTail.java:53) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.ObserverTimedAutomataTraceBuilder.processTrace(ObserverTimedAutomataTraceBuilder.java:59) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readTraceFile(Parser.java:133) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readFolder(Parser.java:67) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferAutomata(Main.java:186) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferTimedAutomata(Main.java:154) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.InferModel.main(InferModel.java:23) [tkt.jar:?]
+"23:36:26.867 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/tkt-master/TimedKTail/TKTTutorial/PetterExample/TA.jtml
+""23:37:16.274 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""23:37:16.287 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""23:37:16.289 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""23:37:16.289 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""23:37:16.300 [main] FATAL it.unimib.disco.lta.timedKTail.traces.Parser @ Errore Parser Traccia: validTraces/PetterExampleV1.csv
+" java.lang.IllegalStateException: Unexpected: movingToMiddle:E expecting movingToTop
+	at it.unimib.disco.lta.timedKTail.algorithm.PhaseI.elaborateTrace(PhaseI.java:144) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.algorithm.TimedKTail.elaborateTrace(TimedKTail.java:53) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.ObserverTimedAutomataTraceBuilder.processTrace(ObserverTimedAutomataTraceBuilder.java:59) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readTraceFile(Parser.java:133) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readFolder(Parser.java:67) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferAutomata(Main.java:186) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferTimedAutomata(Main.java:154) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.InferModel.main(InferModel.java:23) [tkt.jar:?]
+"23:37:16.337 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/tkt-master/TimedKTail/TKTTutorial/PetterExample/TA.jtml
+""23:38:04.267 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""23:38:04.279 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""23:38:04.279 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""23:38:04.279 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""23:38:04.290 [main] FATAL it.unimib.disco.lta.timedKTail.traces.Parser @ Errore Parser Traccia: validTraces/PetterExampleV1.csv
+" java.lang.IllegalStateException: Unexpected: movingToMiddle:E expecting movingToTop
+	at it.unimib.disco.lta.timedKTail.algorithm.PhaseI.elaborateTrace(PhaseI.java:144) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.algorithm.TimedKTail.elaborateTrace(TimedKTail.java:53) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.ObserverTimedAutomataTraceBuilder.processTrace(ObserverTimedAutomataTraceBuilder.java:59) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readTraceFile(Parser.java:133) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readFolder(Parser.java:67) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferAutomata(Main.java:186) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferTimedAutomata(Main.java:154) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.InferModel.main(InferModel.java:23) [tkt.jar:?]
+"23:38:04.324 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/tkt-master/TimedKTail/TKTTutorial/PetterExample/TA.jtml
+""23:38:17.273 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""23:38:17.287 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""23:38:17.288 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""23:38:17.288 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""23:38:17.299 [main] FATAL it.unimib.disco.lta.timedKTail.traces.Parser @ Errore Parser Traccia: validTraces/PetterExampleV1.csv
+" java.lang.IllegalStateException: Unexpected: movingToMiddle:E expecting movingToTop
+	at it.unimib.disco.lta.timedKTail.algorithm.PhaseI.elaborateTrace(PhaseI.java:144) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.algorithm.TimedKTail.elaborateTrace(TimedKTail.java:53) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.ObserverTimedAutomataTraceBuilder.processTrace(ObserverTimedAutomataTraceBuilder.java:59) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readTraceFile(Parser.java:133) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readFolder(Parser.java:67) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferAutomata(Main.java:186) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferTimedAutomata(Main.java:154) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.InferModel.main(InferModel.java:23) [tkt.jar:?]
+"23:38:17.335 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/tkt-master/TimedKTail/TKTTutorial/PetterExample/TA.jtml
+""23:38:31.712 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""23:38:31.723 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""23:38:31.723 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""23:38:31.723 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""23:38:31.732 [main] FATAL it.unimib.disco.lta.timedKTail.traces.Parser @ Errore Parser Traccia: validTraces/PetterExampleV1.csv
+" java.lang.IllegalStateException: Unexpected: movingToMiddle:E expecting movingToTop
+	at it.unimib.disco.lta.timedKTail.algorithm.PhaseI.elaborateTrace(PhaseI.java:144) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.algorithm.TimedKTail.elaborateTrace(TimedKTail.java:53) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.ObserverTimedAutomataTraceBuilder.processTrace(ObserverTimedAutomataTraceBuilder.java:59) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readTraceFile(Parser.java:133) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readFolder(Parser.java:67) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferAutomata(Main.java:186) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferTimedAutomata(Main.java:154) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.InferModel.main(InferModel.java:23) [tkt.jar:?]
+"23:38:31.767 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/tkt-master/TimedKTail/TKTTutorial/PetterExample/TA.jtml
+""23:39:05.577 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""23:39:05.587 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""23:39:05.588 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""23:39:05.588 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""23:39:05.598 [main] FATAL it.unimib.disco.lta.timedKTail.traces.Parser @ Errore Parser Traccia: validTraces/PetterExampleV1.csv
+" java.lang.IllegalStateException: Unexpected: movingToMiddle:E expecting movingToTop
+	at it.unimib.disco.lta.timedKTail.algorithm.PhaseI.elaborateTrace(PhaseI.java:144) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.algorithm.TimedKTail.elaborateTrace(TimedKTail.java:53) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.ObserverTimedAutomataTraceBuilder.processTrace(ObserverTimedAutomataTraceBuilder.java:59) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readTraceFile(Parser.java:133) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readFolder(Parser.java:67) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferAutomata(Main.java:186) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferTimedAutomata(Main.java:154) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.InferModel.main(InferModel.java:23) [tkt.jar:?]
+"23:39:05.633 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/tkt-master/TimedKTail/TKTTutorial/PetterExample/TA.jtml
+""23:39:36.779 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""23:39:36.791 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""23:39:36.792 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""23:39:36.792 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""23:39:36.803 [main] FATAL it.unimib.disco.lta.timedKTail.traces.Parser @ Errore Parser Traccia: validTraces/PetterExampleV1.csv
+" java.lang.IllegalStateException: Unexpected: movingToMiddle:E expecting movingToTop
+	at it.unimib.disco.lta.timedKTail.algorithm.PhaseI.elaborateTrace(PhaseI.java:144) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.algorithm.TimedKTail.elaborateTrace(TimedKTail.java:53) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.ObserverTimedAutomataTraceBuilder.processTrace(ObserverTimedAutomataTraceBuilder.java:59) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readTraceFile(Parser.java:133) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readFolder(Parser.java:67) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferAutomata(Main.java:186) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferTimedAutomata(Main.java:154) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.InferModel.main(InferModel.java:23) [tkt.jar:?]
+"23:39:36.837 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/tkt-master/TimedKTail/TKTTutorial/PetterExample/TA.jtml
+""23:40:17.015 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""23:40:17.027 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""23:40:17.028 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""23:40:17.028 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""23:40:17.042 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/tkt-master/TimedKTail/TKTTutorial/PetterExample/TA.jtml
+""23:45:58.683 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""23:45:58.693 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""23:45:58.694 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""23:45:58.694 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""23:45:58.702 [main] FATAL it.unimib.disco.lta.timedKTail.traces.Parser @ Errore Parser Traccia: validTraces/PetterExampleV1.csv
+" java.lang.IllegalStateException: Unexpected: movingToTop:E expecting movingToMiddle
+	at it.unimib.disco.lta.timedKTail.algorithm.PhaseI.elaborateTrace(PhaseI.java:144) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.algorithm.TimedKTail.elaborateTrace(TimedKTail.java:53) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.ObserverTimedAutomataTraceBuilder.processTrace(ObserverTimedAutomataTraceBuilder.java:59) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readTraceFile(Parser.java:133) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readFolder(Parser.java:67) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferAutomata(Main.java:186) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferTimedAutomata(Main.java:154) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.InferModel.main(InferModel.java:23) [tkt.jar:?]
+"23:50:14.656 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""23:50:14.669 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""23:50:14.669 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""23:50:14.669 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""23:50:14.676 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/tkt-master/TimedKTail/TKTTutorial/PetterExample/TA.jtml
+""23:51:34.204 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""23:51:34.215 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""23:51:34.216 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""23:51:34.216 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""23:51:34.225 [main] FATAL it.unimib.disco.lta.timedKTail.traces.Parser @ Errore Parser Traccia: validTraces/PetterExampleV1.csv
+" java.lang.IllegalStateException: Unexpected: movingToTop:E expecting movingToMiddle
+	at it.unimib.disco.lta.timedKTail.algorithm.PhaseI.elaborateTrace(PhaseI.java:144) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.algorithm.TimedKTail.elaborateTrace(TimedKTail.java:53) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.ObserverTimedAutomataTraceBuilder.processTrace(ObserverTimedAutomataTraceBuilder.java:59) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readTraceFile(Parser.java:133) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readFolder(Parser.java:67) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferAutomata(Main.java:186) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferTimedAutomata(Main.java:154) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.InferModel.main(InferModel.java:23) [tkt.jar:?]
+"23:55:22.961 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""23:55:22.975 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""23:55:22.975 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""23:55:22.975 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""23:55:22.986 [main] FATAL it.unimib.disco.lta.timedKTail.traces.Parser @ Errore Parser Traccia: validTraces/PetterExampleV1.csv
+" java.lang.IllegalStateException: Unexpected: movingToMiddle:E expecting movingToTop
+	at it.unimib.disco.lta.timedKTail.algorithm.PhaseI.elaborateTrace(PhaseI.java:144) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.algorithm.TimedKTail.elaborateTrace(TimedKTail.java:53) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.ObserverTimedAutomataTraceBuilder.processTrace(ObserverTimedAutomataTraceBuilder.java:59) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readTraceFile(Parser.java:133) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readFolder(Parser.java:67) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferAutomata(Main.java:186) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferTimedAutomata(Main.java:154) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.InferModel.main(InferModel.java:23) [tkt.jar:?]
+"23:55:23.030 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/tkt-master/TimedKTail/TKTTutorial/PetterExample/TA.jtml
+""23:56:41.774 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""23:56:41.789 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""23:56:41.790 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""23:56:41.790 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""23:56:41.796 [main] FATAL it.unimib.disco.lta.timedKTail.traces.Parser @ Errore Parser Traccia: validTraces/PetterExampleV1.csv
+" java.util.NoSuchElementException
+	at java.base/java.util.LinkedList.removeFirst(LinkedList.java:274) ~[?:?]
+	at java.base/java.util.LinkedList.pop(LinkedList.java:805) ~[?:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.newEvent(Parser.java:235) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readTraceFile(Parser.java:142) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readFolder(Parser.java:67) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferAutomata(Main.java:186) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferTimedAutomata(Main.java:154) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.InferModel.main(InferModel.java:23) [tkt.jar:?]
+"23:56:41.833 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/tkt-master/TimedKTail/TKTTutorial/PetterExample/TA.jtml
+""23:57:15.642 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""23:57:15.831 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""23:57:15.831 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""23:57:15.831 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""23:57:15.855 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/tkt-master/TimedKTail/TKTTutorial/PetterExample/TA.jtml
+""00:09:22.956 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""00:09:22.966 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""00:09:22.966 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""00:09:22.967 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""00:09:22.970 [main] FATAL it.unimib.disco.lta.timedKTail.traces.Parser @ Errore Parser Traccia: validTraces/PetterExampleV1.csv
+" java.lang.NullPointerException
+	at it.unimib.disco.lta.timedKTail.algorithm.TimedKTail.elaborateTrace(TimedKTail.java:61) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.ObserverTimedAutomataTraceBuilder.processTrace(ObserverTimedAutomataTraceBuilder.java:59) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readTraceFile(Parser.java:150) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readFolder(Parser.java:67) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferAutomata(Main.java:186) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferTimedAutomata(Main.java:154) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.InferModel.main(InferModel.java:23) [tkt.jar:?]
+"00:09:23.001 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/tkt-master/TimedKTail/TKTTutorial/PetterExample/TA.jtml
+""00:09:59.179 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""00:09:59.189 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""00:09:59.194 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""00:09:59.194 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""00:09:59.199 [main] FATAL it.unimib.disco.lta.timedKTail.traces.Parser @ Errore Parser Traccia: validTraces/PetterExampleV1.csv
+" java.lang.NullPointerException
+	at it.unimib.disco.lta.timedKTail.algorithm.TimedKTail.elaborateTrace(TimedKTail.java:61) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.ObserverTimedAutomataTraceBuilder.processTrace(ObserverTimedAutomataTraceBuilder.java:59) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readTraceFile(Parser.java:150) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readFolder(Parser.java:67) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferAutomata(Main.java:186) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferTimedAutomata(Main.java:154) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.InferModel.main(InferModel.java:23) [tkt.jar:?]
+"00:09:59.237 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/tkt-master/TimedKTail/TKTTutorial/PetterExample/TA.jtml
+""00:10:15.648 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""00:10:15.660 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""00:10:15.660 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""00:10:15.661 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""00:10:15.668 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/tkt-master/TimedKTail/TKTTutorial/PetterExample/TA.jtml
+""00:10:37.964 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""00:10:37.975 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""00:10:37.976 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""00:10:37.976 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""00:10:37.994 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/tkt-master/TimedKTail/TKTTutorial/PetterExample/TA.jtml
+""01:48:07.986 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""01:48:08.006 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""01:48:08.007 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""01:48:08.007 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""01:48:08.045 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/tkt-master/TimedKTail/TKTTutorial/PetterExample/TA.jtml
+""01:49:43.958 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""01:49:43.971 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""01:49:43.971 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""01:49:43.971 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""01:49:43.981 [main] FATAL it.unimib.disco.lta.timedKTail.traces.Parser @ Errore Parser Traccia: validTraces/PetterExampleV1.csv
+" java.lang.IllegalStateException: Unexpected: movingToMiddle:E expecting movingToTop
+	at it.unimib.disco.lta.timedKTail.algorithm.PhaseI.elaborateTrace(PhaseI.java:144) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.algorithm.TimedKTail.elaborateTrace(TimedKTail.java:53) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.ObserverTimedAutomataTraceBuilder.processTrace(ObserverTimedAutomataTraceBuilder.java:59) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readTraceFile(Parser.java:150) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readFolder(Parser.java:67) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferAutomata(Main.java:186) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferTimedAutomata(Main.java:154) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.InferModel.main(InferModel.java:23) [tkt.jar:?]
+"01:49:44.023 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/tkt-master/TimedKTail/TKTTutorial/PetterExample/TA.jtml
+""02:00:22.528 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""02:00:22.543 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""02:00:22.544 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""02:00:22.544 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""02:00:22.557 [main] FATAL it.unimib.disco.lta.timedKTail.traces.Parser @ Errore Parser Traccia: validTraces/PetterExampleV1.csv
+" java.lang.IllegalStateException: Unexpected: movingToMiddle:E expecting movingToTop
+	at it.unimib.disco.lta.timedKTail.algorithm.PhaseI.elaborateTrace(PhaseI.java:144) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.algorithm.TimedKTail.elaborateTrace(TimedKTail.java:53) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.ObserverTimedAutomataTraceBuilder.processTrace(ObserverTimedAutomataTraceBuilder.java:59) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readTraceFile(Parser.java:150) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readFolder(Parser.java:67) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferAutomata(Main.java:186) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferTimedAutomata(Main.java:154) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.InferModel.main(InferModel.java:23) [tkt.jar:?]
+"02:00:22.595 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/tkt-master/TimedKTail/TKTTutorial/PetterExample/TA.jtml
+""02:00:31.110 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""02:00:31.125 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""02:00:31.126 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""02:00:31.126 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""02:00:31.138 [main] FATAL it.unimib.disco.lta.timedKTail.traces.Parser @ Errore Parser Traccia: validTraces/PetterExampleV1.csv
+" java.lang.IllegalStateException: Unexpected: movingToMiddle:E expecting switch1
+	at it.unimib.disco.lta.timedKTail.algorithm.PhaseI.elaborateTrace(PhaseI.java:144) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.algorithm.TimedKTail.elaborateTrace(TimedKTail.java:53) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.ObserverTimedAutomataTraceBuilder.processTrace(ObserverTimedAutomataTraceBuilder.java:59) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readTraceFile(Parser.java:150) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readFolder(Parser.java:67) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferAutomata(Main.java:186) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferTimedAutomata(Main.java:154) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.InferModel.main(InferModel.java:23) [tkt.jar:?]
+"02:00:31.177 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/tkt-master/TimedKTail/TKTTutorial/PetterExample/TA.jtml
+""02:51:09.805 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""02:51:09.817 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""02:51:09.818 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""02:51:09.818 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""02:51:09.835 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/tkt-master/TimedKTail/TKTTutorial/PetterExample/TA.jtml
+""13:42:27.914 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""13:42:28.003 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""13:42:28.004 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""13:42:28.004 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""13:42:28.021 [main] FATAL it.unimib.disco.lta.timedKTail.traces.Parser @ Errore Parser Traccia: validTraces/PetterExampleV1_70_50.csv
+" java.lang.IllegalStateException: Unexpected: switch1:E expecting switch2
+	at it.unimib.disco.lta.timedKTail.algorithm.PhaseI.elaborateTrace(PhaseI.java:144) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.algorithm.TimedKTail.elaborateTrace(TimedKTail.java:53) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.ObserverTimedAutomataTraceBuilder.processTrace(ObserverTimedAutomataTraceBuilder.java:59) ~[tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readTraceFile(Parser.java:150) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.traces.Parser.readFolder(Parser.java:67) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferAutomata(Main.java:186) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.Main.inferTimedAutomata(Main.java:154) [tkt.jar:?]
+	at it.unimib.disco.lta.timedKTail.ui.InferModel.main(InferModel.java:23) [tkt.jar:?]
+"13:45:45.483 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""13:45:45.493 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""13:45:45.494 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""13:45:45.494 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""13:45:45.531 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/tkt-master/TimedKTail/TKTTutorial/PetterExample/TA.jtml
+""13:57:35.409 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""13:57:35.424 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""13:57:35.424 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""13:57:35.424 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""13:57:35.466 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/tkt-master/TimedKTail/TKTTutorial/PetterExample/TA.jtml
+""13:57:54.699 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 1
+""13:57:54.709 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Corretta!
+""13:57:54.710 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Valid trace: [Trace path:validTraces/PetterExampleV1_130_50.csv traceN:1]
+""13:57:54.711 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 2
+""13:57:54.713 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Corretta!
+""13:57:54.714 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Valid trace: [Trace path:validTraces/PetterExampleV1_50_50.csv traceN:1]
+""13:57:54.714 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 3
+""13:57:54.716 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Corretta!
+""13:57:54.716 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Valid trace: [Trace path:validTraces/PetterExampleV1_60_50.csv traceN:1]
+""13:57:54.717 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 4
+""13:57:54.718 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Corretta!
+""13:57:54.718 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Valid trace: [Trace path:validTraces/PetterExampleV1_30_50.csv traceN:1]
+""13:57:54.719 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 5
+""13:57:54.722 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Corretta!
+""13:57:54.723 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Valid trace: [Trace path:validTraces/PetterExampleV1_80_50.csv traceN:1]
+""13:57:54.724 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 6
+""13:57:54.726 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Corretta!
+""13:57:54.726 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Valid trace: [Trace path:validTraces/PetterExampleV1_100_50.csv traceN:1]
+""13:58:10.372 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 1
+""13:58:10.377 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Errata!
+""13:58:10.378 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Invalid trace: [Trace path:invalidTraces/PetterExampleV1_40_50.csv traceN:1] automata: KTail
+""13:58:10.379 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 2
+""13:58:10.381 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Errata!
+""13:58:10.381 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Invalid trace: [Trace path:invalidTraces/PetterExampleV1_90_50.csv traceN:1] automata: KTail
+""13:58:10.382 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 3
+""13:58:10.385 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Errata!
+""13:58:10.385 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Invalid trace: [Trace path:invalidTraces/PetterExampleV1_120_50.csv traceN:1] automata: KTail
+""13:58:10.386 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 4
+""13:58:10.389 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Errata!
+""13:58:10.389 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Invalid trace: [Trace path:invalidTraces/PetterExampleV1_110_50.csv traceN:1] automata: KTail
+""13:58:41.235 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 1
+""13:58:41.245 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Corretta!
+""13:58:41.246 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Valid trace: [Trace path:validTraces/PetterExampleV1_130_50.csv traceN:1]
+""13:58:41.247 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 2
+""13:58:41.248 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Corretta!
+""13:58:41.249 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Valid trace: [Trace path:validTraces/PetterExampleV1_50_50.csv traceN:1]
+""13:58:41.249 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 3
+""13:58:41.251 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Corretta!
+""13:58:41.251 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Valid trace: [Trace path:validTraces/PetterExampleV1_60_50.csv traceN:1]
+""13:58:41.252 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 4
+""13:58:41.253 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Corretta!
+""13:58:41.253 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Valid trace: [Trace path:validTraces/PetterExampleV1_30_50.csv traceN:1]
+""13:58:41.254 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 5
+""13:58:41.256 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Corretta!
+""13:58:41.257 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Valid trace: [Trace path:validTraces/PetterExampleV1_80_50.csv traceN:1]
+""13:58:41.257 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 6
+""13:58:41.259 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Corretta!
+""13:58:41.259 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Valid trace: [Trace path:validTraces/PetterExampleV1_100_50.csv traceN:1]
+""13:58:45.079 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 1
+""13:58:45.087 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Errata!
+""13:58:45.088 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Invalid trace: [Trace path:invalidTraces/PetterExampleV1_40_50.csv traceN:1] automata: KTail
+""13:58:45.089 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 2
+""13:58:45.090 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Errata!
+""13:58:45.091 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Invalid trace: [Trace path:invalidTraces/PetterExampleV1_90_50.csv traceN:1] automata: KTail
+""13:58:45.092 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 3
+""13:58:45.095 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Errata!
+""13:58:45.095 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Invalid trace: [Trace path:invalidTraces/PetterExampleV1_120_50.csv traceN:1] automata: KTail
+""13:58:45.096 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 4
+""13:58:45.099 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Errata!
+""13:58:45.099 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Invalid trace: [Trace path:invalidTraces/PetterExampleV1_110_50.csv traceN:1] automata: KTail
+""14:02:47.344 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 1
+""14:02:47.354 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Corretta!
+""14:02:47.354 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Valid trace: [Trace path:validTraces/PetterExampleV1_130_50.csv traceN:1]
+""14:02:47.355 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 2
+""14:02:47.357 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Corretta!
+""14:02:47.357 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Valid trace: [Trace path:validTraces/PetterExampleV1_50_50.csv traceN:1]
+""14:02:47.358 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 3
+""14:02:47.360 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Corretta!
+""14:02:47.360 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Valid trace: [Trace path:validTraces/PetterExampleV1_60_50.csv traceN:1]
+""14:02:47.360 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 4
+""14:02:47.362 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Corretta!
+""14:02:47.362 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Valid trace: [Trace path:validTraces/PetterExampleV1_30_50.csv traceN:1]
+""14:02:47.363 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 5
+""14:02:47.364 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Corretta!
+""14:02:47.365 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Valid trace: [Trace path:validTraces/PetterExampleV1_80_50.csv traceN:1]
+""14:02:47.365 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 6
+""14:02:47.368 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Corretta!
+""14:02:47.368 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Valid trace: [Trace path:validTraces/PetterExampleV1_100_50.csv traceN:1]
+""14:02:47.369 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 7
+""14:02:47.371 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Errata!
+""14:02:47.372 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Invalid trace: [Trace path:validTraces/PetterExampleV1_50_100.csv traceN:1] automata: KTail
+""18:49:46.607 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""18:49:46.650 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""18:49:46.650 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""18:49:46.650 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""19:05:57.856 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""19:05:57.894 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""19:05:57.895 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""19:05:57.895 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""19:05:57.924 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/Test/lowLevelTesting/TA.jtml
+""19:12:39.464 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""19:12:39.474 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""19:12:39.474 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""19:12:39.474 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""19:12:39.489 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/Test/lowLevelTesting/validAutomata/TAinferedFromCurrentValidTraces.jtml
+""19:13:06.954 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""19:13:06.967 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""19:13:06.968 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""19:13:06.968 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""19:13:06.985 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/Test/lowLevelTesting/validAutomatas/TAinferedFromCurrentValidTraces.jtml
+""19:15:56.764 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 1
+""19:15:56.774 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Corretta!
+""19:15:56.775 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Valid trace: [Trace path:validTraces/LoLev_v1_30_50_03052021185714.csv traceN:1]
+""19:34:33.042 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.Policy @ New Policy: verifyAfterMergingfalse
+""19:34:33.055 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Verify after merge: false
+""19:34:33.057 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max state visists: 2
+""19:34:33.058 [main] INFO  it.unimib.disco.lta.timedKTail.algorithm.PhaseII @ Max visist depth: 0
+""19:34:33.077 [main] INFO  it.unimib.disco.lta.timedKTail.ui.Main @ Saving automataKTail to: /home/jeff/Desktop/Test/lowLevelTesting/validAutomatas/TAinferedFromCurrentValidTraces.jtml
+""19:35:20.949 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 1
+""19:35:20.957 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Corretta!
+""19:35:20.958 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Valid trace: [Trace path:logs/LoLev_v1_30_50_03052021193325.csv traceN:1]
+""19:35:20.959 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 2
+""19:35:20.961 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Corretta!
+""19:35:20.961 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Valid trace: [Trace path:logs/LoLev_v2_30_50_03052021193334.csv traceN:1]
+""19:38:55.263 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 1
+""19:38:55.269 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Corretta!
+""19:38:55.270 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Valid trace: [Trace path:logs/LoLev_v1_30_50_03052021193325.csv traceN:1]
+""19:38:55.270 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Inizio processo di validazione traccia n: 2
+""19:38:55.273 [main] INFO  it.unimib.disco.lta.timedKTail.validation.Validation @ Traccia Errata!
+""19:38:55.273 [main] INFO  it.unimib.disco.lta.timedKTail.traces.ObserverValidateTrace @ Detected Invalid trace: [Trace path:logs/LoLev_v2_30_50_03052021193811.csv traceN:1] automata: KTail
+"

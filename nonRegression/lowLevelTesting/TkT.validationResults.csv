@@ -1,0 +1,2 @@
+TracePath,IsMainError,ErrorType,CurrentState,ViolatingEvent,EventTimestamp,MissingClocks,ViolatedClauseInGuardCondition,ViolatingClockValue
+logs/LoLev_v2_30_50_03052021193811.csv,true,UNMATCHED_EVENT,2,movingToBottom:B,228,,,

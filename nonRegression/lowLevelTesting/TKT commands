@@ -1,0 +1,11 @@
+cd /home/jeff/Desktop/Test/lowLevelTesting
+
+java -cp tkt.jar it.unimib.disco.lta.timedKTail.ui.InferModel validAutomatas/TAinferedFromCurrentValidTraces.jtml validTraces/
+java -cp tkt.jar it.unimib.disco.lta.timedKTail.ui.VisualizeAutomata validAutomatas/TAinferedFromCurrentValidTraces.jtml
+java -cp tkt.jar it.unimib.disco.lta.timedKTail.ui.ValidateTraces validAutomatas/TAinferedFromCurrentValidTraces.jtml logs/
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+digraph states {
+node [shape = circle];
+    node_S1[label="@ S1",style=filled,color=lightgrey];
+    node_S2[label="S2",shape=invhouse,color=red];
+    node_S3[label="S3(x,y)"];
+    node_S4[label="S4",shape=invhouse,color=red];
+    node_S5[label="S5(x,y)"];
+    node_S6[label="S6",shape=invhouse,color=red];
+    node_S7[label="S7(x,y)"];
+    node_S8[label="S8",shape=invhouse,color=red];
+    node_S9[label="S9(x,y)"];
+    node_P1[label="",shape=triangle,color=blue]
+    node_S1 -> node_P1[label="COMMAND{Type : \"PetterEx\",Name : \"startSimulation\"}"];
+    node_P1 -> node_S2[color=blue,style=dotted];
+    node_P1 -> node_S4[color=blue,style=dotted];
+    node_P1 -> node_S6[color=blue,style=dotted];
+    node_P1 -> node_S8[color=blue,style=dotted];
+    node_S2 -> node_S3[label="EVR{xPosition : x,yPosition : y} where |2.0 < x < 3.0| and |y <= 1.0|"];
+    node_S4 -> node_S5[label="EVR{xPosition : x,yPosition : y} where |2.0 < x < 3.0| and |y >= 4.0|"];
+    node_S6 -> node_S7[label="EVR{xPosition : x,yPosition : y} where |2.0 < y < 3.0| and |x <= 4.0|"];
+    node_S8 -> node_S9[label="EVR{xPosition : x,yPosition : y} where |2.0 < y < 3.0| and |x >= 4.0|"];
+}

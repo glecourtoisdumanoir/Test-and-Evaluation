@@ -1,0 +1,5 @@
+cd /home/jeff/Desktop/Test/highLevelTesting
+export PYTHONPATH=$PYTHONPATH:/home/jeff/Desktop/Test/highLevelTesting
+
+xdot A.dot
+

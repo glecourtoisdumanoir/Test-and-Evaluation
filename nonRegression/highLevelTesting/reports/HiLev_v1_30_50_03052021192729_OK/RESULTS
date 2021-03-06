@@ -1,0 +1,38 @@
+
+============================
+       RESULTS FOR P1: 
+============================
+
+No errors detected!
+
+Statistics {
+  COMMAND :
+      {'Type': 'PetterEx', 'Name': 'startSimulation'} -> 1
+}
+
+============================
+       RESULTS FOR P2: 
+============================
+
+No errors detected!
+
+Statistics {
+  COMMAND :
+      {'Type': 'PetterEx', 'Name': 'startSimulation'} -> 1
+  EVR :
+      {'xPosition': 2.5, 'yPosition': 0.5} -> 1
+      {'xPosition': 2.5, 'yPosition': 2.0676707602928217} -> 1
+      {'xPosition': 2.5, 'yPosition': 4.046045210378951} -> 1
+      {'xPosition': 4.067670760292822, 'yPosition': 2.222708417376574} -> 1
+}
+
+========================
+   Summary of Errors:
+========================
+
+P1  :  0  
+P2  :  0  
+
+specification was satisfied
+
+318 events processed in 0 minutes and 0.28925 seconds (1099 events/sec)

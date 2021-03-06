@@ -1,0 +1,2224 @@
+COMMAND 1 {
+  OBJ_TYPE := "COMMAND" - str
+  Type := "PetterEx" - str
+  Name := "startSimulation" - str
+  Time := 0 - int
+}
+
+EVR 2 {
+  xPosition := 2.5
+  yPosition := 0.5
+  OBJ_TYPE := "EVR" - str
+  Time := 0 - int
+}
+
+EVR 3 {
+  xPosition := 2.5
+  yPosition := 0.5
+  OBJ_TYPE := "EVR" - str
+  Time := 1 - int
+}
+
+EVR 4 {
+  xPosition := 2.5
+  yPosition := 0.524
+  OBJ_TYPE := "EVR" - str
+  Time := 2 - int
+}
+
+EVR 5 {
+  xPosition := 2.5
+  yPosition := 0.56912
+  OBJ_TYPE := "EVR" - str
+  Time := 3 - int
+}
+
+EVR 6 {
+  xPosition := 2.5
+  yPosition := 0.6325376
+  OBJ_TYPE := "EVR" - str
+  Time := 4 - int
+}
+
+EVR 7 {
+  xPosition := 2.5
+  yPosition := 0.711515648
+  OBJ_TYPE := "EVR" - str
+  Time := 5 - int
+}
+
+EVR 8 {
+  xPosition := 2.5
+  yPosition := 0.80342587904
+  OBJ_TYPE := "EVR" - str
+  Time := 6 - int
+}
+
+EVR 9 {
+  xPosition := 2.5
+  yPosition := 0.905768694579
+  OBJ_TYPE := "EVR" - str
+  Time := 7 - int
+}
+
+EVR 10 {
+  xPosition := 2.5
+  yPosition := 1.01618926171
+  OBJ_TYPE := "EVR" - str
+  Time := 8 - int
+}
+
+EVR 11 {
+  xPosition := 2.5
+  yPosition := 1.13249013644
+  OBJ_TYPE := "EVR" - str
+  Time := 9 - int
+}
+
+EVR 12 {
+  xPosition := 2.5
+  yPosition := 1.25264063507
+  OBJ_TYPE := "EVR" - str
+  Time := 10 - int
+}
+
+EVR 13 {
+  xPosition := 2.5
+  yPosition := 1.37478319222
+  OBJ_TYPE := "EVR" - str
+  Time := 11 - int
+}
+
+EVR 14 {
+  xPosition := 2.5
+  yPosition := 1.4972369549
+  OBJ_TYPE := "EVR" - str
+  Time := 12 - int
+}
+
+EVR 15 {
+  xPosition := 2.5
+  yPosition := 1.61849886775
+  OBJ_TYPE := "EVR" - str
+  Time := 13 - int
+}
+
+EVR 16 {
+  xPosition := 2.5
+  yPosition := 1.73724250759
+  OBJ_TYPE := "EVR" - str
+  Time := 14 - int
+}
+
+EVR 17 {
+  xPosition := 2.5
+  yPosition := 1.85231492425
+  OBJ_TYPE := "EVR" - str
+  Time := 15 - int
+}
+
+EVR 18 {
+  xPosition := 2.5
+  yPosition := 1.96273174081
+  OBJ_TYPE := "EVR" - str
+  Time := 16 - int
+}
+
+EVR 19 {
+  xPosition := 2.5
+  yPosition := 2.06767076029
+  OBJ_TYPE := "EVR" - str
+  Time := 17 - int
+}
+
+EVR 20 {
+  xPosition := 2.5
+  yPosition := 2.16646431655
+  OBJ_TYPE := "EVR" - str
+  Time := 18 - int
+}
+
+EVR 21 {
+  xPosition := 2.5
+  yPosition := 2.28259059693
+  OBJ_TYPE := "EVR" - str
+  Time := 19 - int
+}
+
+EVR 22 {
+  xPosition := 2.5
+  yPosition := 2.41278415187
+  OBJ_TYPE := "EVR" - str
+  Time := 20 - int
+}
+
+EVR 23 {
+  xPosition := 2.5
+  yPosition := 2.55396339305
+  OBJ_TYPE := "EVR" - str
+  Time := 21 - int
+}
+
+EVR 24 {
+  xPosition := 2.5
+  yPosition := 2.70324771547
+  OBJ_TYPE := "EVR" - str
+  Time := 22 - int
+}
+
+EVR 25 {
+  xPosition := 2.5
+  yPosition := 2.85797035848
+  OBJ_TYPE := "EVR" - str
+  Time := 23 - int
+}
+
+EVR 26 {
+  xPosition := 2.5
+  yPosition := 3.01568731175
+  OBJ_TYPE := "EVR" - str
+  Time := 24 - int
+}
+
+EVR 27 {
+  xPosition := 2.5
+  yPosition := 3.17418258632
+  OBJ_TYPE := "EVR" - str
+  Time := 25 - int
+}
+
+EVR 28 {
+  xPosition := 2.5
+  yPosition := 3.3314701802
+  OBJ_TYPE := "EVR" - str
+  Time := 26 - int
+}
+
+EVR 29 {
+  xPosition := 2.5
+  yPosition := 3.48579307178
+  OBJ_TYPE := "EVR" - str
+  Time := 27 - int
+}
+
+EVR 30 {
+  xPosition := 2.5
+  yPosition := 3.6356195742
+  OBJ_TYPE := "EVR" - str
+  Time := 28 - int
+}
+
+EVR 31 {
+  xPosition := 2.5
+  yPosition := 3.77963737948
+  OBJ_TYPE := "EVR" - str
+  Time := 29 - int
+}
+
+EVR 32 {
+  OBJ_TYPE := "EVR" - str
+  Dispatch := "switch" - str
+  Time := 30 - int
+}
+
+EVR 33 {
+  xPosition := 2.5
+  yPosition := 3.91674561323
+  OBJ_TYPE := "EVR" - str
+  Time := 30 - int
+}
+
+EVR 34 {
+  xPosition := 2.5
+  yPosition := 4.04604521038
+  OBJ_TYPE := "EVR" - str
+  Time := 31 - int
+}
+
+EVR 35 {
+  xPosition := 2.5
+  yPosition := 4.14282790851
+  OBJ_TYPE := "EVR" - str
+  Time := 32 - int
+}
+
+EVR 36 {
+  xPosition := 2.5
+  yPosition := 4.20944414034
+  OBJ_TYPE := "EVR" - str
+  Time := 33 - int
+}
+
+EVR 37 {
+  xPosition := 2.5
+  yPosition := 4.24835248945
+  OBJ_TYPE := "EVR" - str
+  Time := 34 - int
+}
+
+EVR 38 {
+  xPosition := 2.5
+  yPosition := 4.26207850698
+  OBJ_TYPE := "EVR" - str
+  Time := 35 - int
+}
+
+EVR 39 {
+  xPosition := 2.5
+  yPosition := 4.25317717254
+  OBJ_TYPE := "EVR" - str
+  Time := 36 - int
+}
+
+EVR 40 {
+  xPosition := 2.5
+  yPosition := 4.22419905614
+  OBJ_TYPE := "EVR" - str
+  Time := 37 - int
+}
+
+EVR 41 {
+  xPosition := 2.5
+  yPosition := 4.17766018764
+  OBJ_TYPE := "EVR" - str
+  Time := 38 - int
+}
+
+EVR 42 {
+  xPosition := 2.5
+  yPosition := 4.11601559469
+  OBJ_TYPE := "EVR" - str
+  Time := 39 - int
+}
+
+EVR 43 {
+  xPosition := 2.5
+  yPosition := 4.04163643064
+  OBJ_TYPE := "EVR" - str
+  Time := 40 - int
+}
+
+EVR 44 {
+  xPosition := 2.5
+  yPosition := 3.95679057914
+  OBJ_TYPE := "EVR" - str
+  Time := 41 - int
+}
+
+EVR 45 {
+  xPosition := 2.5
+  yPosition := 3.86362659265
+  OBJ_TYPE := "EVR" - str
+  Time := 42 - int
+}
+
+EVR 46 {
+  xPosition := 2.5
+  yPosition := 3.76416079759
+  OBJ_TYPE := "EVR" - str
+  Time := 43 - int
+}
+
+EVR 47 {
+  xPosition := 2.5
+  yPosition := 3.66026737883
+  OBJ_TYPE := "EVR" - str
+  Time := 44 - int
+}
+
+EVR 48 {
+  xPosition := 2.5
+  yPosition := 3.55367124075
+  OBJ_TYPE := "EVR" - str
+  Time := 45 - int
+}
+
+EVR 49 {
+  xPosition := 2.5
+  yPosition := 3.44594343069
+  OBJ_TYPE := "EVR" - str
+  Time := 46 - int
+}
+
+EVR 50 {
+  xPosition := 2.5
+  yPosition := 3.33849890295
+  OBJ_TYPE := "EVR" - str
+  Time := 47 - int
+}
+
+EVR 51 {
+  xPosition := 2.5
+  yPosition := 3.23259639737
+  OBJ_TYPE := "EVR" - str
+  Time := 48 - int
+}
+
+EVR 52 {
+  xPosition := 2.5
+  yPosition := 3.12934020562
+  OBJ_TYPE := "EVR" - str
+  Time := 49 - int
+}
+
+EVR 53 {
+  xPosition := 2.5
+  yPosition := 3.02968360011
+  OBJ_TYPE := "EVR" - str
+  Time := 50 - int
+}
+
+EVR 54 {
+  xPosition := 2.5
+  yPosition := 2.9344337048
+  OBJ_TYPE := "EVR" - str
+  Time := 51 - int
+}
+
+EVR 55 {
+  xPosition := 2.5
+  yPosition := 2.84425759373
+  OBJ_TYPE := "EVR" - str
+  Time := 52 - int
+}
+
+EVR 56 {
+  xPosition := 2.524
+  yPosition := 2.75968941152
+  OBJ_TYPE := "EVR" - str
+  Time := 53 - int
+}
+
+EVR 57 {
+  xPosition := 2.56912
+  yPosition := 2.68113832006
+  OBJ_TYPE := "EVR" - str
+  Time := 54 - int
+}
+
+EVR 58 {
+  xPosition := 2.6325376
+  yPosition := 2.60889708663
+  OBJ_TYPE := "EVR" - str
+  Time := 55 - int
+}
+
+EVR 59 {
+  xPosition := 2.711515648
+  yPosition := 2.54315114137
+  OBJ_TYPE := "EVR" - str
+  Time := 56 - int
+}
+
+EVR 60 {
+  xPosition := 2.80342587904
+  yPosition := 2.48398794451
+  OBJ_TYPE := "EVR" - str
+  Time := 57 - int
+}
+
+EVR 61 {
+  xPosition := 2.90576869458
+  yPosition := 2.43140651757
+  OBJ_TYPE := "EVR" - str
+  Time := 58 - int
+}
+
+EVR 62 {
+  xPosition := 3.01618926171
+  yPosition := 2.38532700653
+  OBJ_TYPE := "EVR" - str
+  Time := 59 - int
+}
+
+EVR 63 {
+  xPosition := 3.13249013644
+  yPosition := 2.34560015861
+  OBJ_TYPE := "EVR" - str
+  Time := 60 - int
+}
+
+EVR 64 {
+  xPosition := 3.25264063507
+  yPosition := 2.31201660835
+  OBJ_TYPE := "EVR" - str
+  Time := 61 - int
+}
+
+EVR 65 {
+  xPosition := 3.37478319222
+  yPosition := 2.28431588223
+  OBJ_TYPE := "EVR" - str
+  Time := 62 - int
+}
+
+EVR 66 {
+  xPosition := 3.4972369549
+  yPosition := 2.26219504394
+  OBJ_TYPE := "EVR" - str
+  Time := 63 - int
+}
+
+EVR 67 {
+  xPosition := 3.61849886775
+  yPosition := 2.24531691565
+  OBJ_TYPE := "EVR" - str
+  Time := 64 - int
+}
+
+EVR 68 {
+  xPosition := 3.73724250759
+  yPosition := 2.23331782224
+  OBJ_TYPE := "EVR" - str
+  Time := 65 - int
+}
+
+EVR 69 {
+  xPosition := 3.85231492425
+  yPosition := 2.22581481704
+  OBJ_TYPE := "EVR" - str
+  Time := 66 - int
+}
+
+EVR 70 {
+  xPosition := 3.96273174081
+  yPosition := 2.22241235861
+  OBJ_TYPE := "EVR" - str
+  Time := 67 - int
+}
+
+EVR 71 {
+  xPosition := 4.06767076029
+  yPosition := 2.22270841738
+  OBJ_TYPE := "EVR" - str
+  Time := 68 - int
+}
+
+EVR 72 {
+  xPosition := 4.16646431655
+  yPosition := 2.22630000079
+  OBJ_TYPE := "EVR" - str
+  Time := 69 - int
+}
+
+EVR 73 {
+  xPosition := 4.23459059693
+  yPosition := 2.23278809319
+  OBJ_TYPE := "EVR" - str
+  Time := 70 - int
+}
+
+EVR 74 {
+  xPosition := 4.27454415187
+  yPosition := 2.24178201449
+  OBJ_TYPE := "EVR" - str
+  Time := 71 - int
+}
+
+EVR 75 {
+  xPosition := 4.28888819305
+  yPosition := 2.25290320811
+  OBJ_TYPE := "EVR" - str
+  Time := 72 - int
+}
+
+EVR 76 {
+  xPosition := 4.28021641947
+  yPosition := 2.26578847433
+  OBJ_TYPE := "EVR" - str
+  Time := 73 - int
+}
+
+EVR 77 {
+  xPosition := 4.2511186004
+  yPosition := 2.2800926701
+  OBJ_TYPE := "EVR" - str
+  Time := 74 - int
+}
+
+EVR 78 {
+  xPosition := 4.20414992259
+  yPosition := 2.29549090069
+  OBJ_TYPE := "EVR" - str
+  Time := 75 - int
+}
+
+EVR 79 {
+  xPosition := 4.14180406291
+  yPosition := 2.31168023157
+  OBJ_TYPE := "EVR" - str
+  Time := 76 - int
+}
+
+EVR 80 {
+  xPosition := 4.06648990731
+  yPosition := 2.32838095193
+  OBJ_TYPE := "EVR" - str
+  Time := 77 - int
+}
+
+EVR 81 {
+  xPosition := 3.98051180164
+  yPosition := 2.34533742307
+  OBJ_TYPE := "EVR" - str
+  Time := 78 - int
+}
+
+EVR 82 {
+  xPosition := 3.88605318976
+  yPosition := 2.36231854625
+  OBJ_TYPE := "EVR" - str
+  Time := 79 - int
+}
+
+EVR 83 {
+  OBJ_TYPE := "EVR" - str
+  Dispatch := "switch" - str
+  Time := 80 - int
+}
+
+EVR 84 {
+  xPosition := 3.78516346968
+  yPosition := 2.37911788557
+  OBJ_TYPE := "EVR" - str
+  Time := 80 - int
+}
+
+EVR 85 {
+  xPosition := 3.67974787774
+  yPosition := 2.39555348162
+  OBJ_TYPE := "EVR" - str
+  Time := 81 - int
+}
+
+EVR 86 {
+  xPosition := 3.57156019519
+  yPosition := 2.41146739152
+  OBJ_TYPE := "EVR" - str
+  Time := 82 - int
+}
+
+EVR 87 {
+  xPosition := 3.46219806002
+  yPosition := 2.42672499045
+  OBJ_TYPE := "EVR" - str
+  Time := 83 - int
+}
+
+EVR 88 {
+  xPosition := 3.35310065872
+  yPosition := 2.4412140688
+  OBJ_TYPE := "EVR" - str
+  Time := 84 - int
+}
+
+EVR 89 {
+  xPosition := 3.24554856886
+  yPosition := 2.45484375788
+  OBJ_TYPE := "EVR" - str
+  Time := 85 - int
+}
+
+EVR 90 {
+  xPosition := 3.14066552188
+  yPosition := 2.46754331543
+  OBJ_TYPE := "EVR" - str
+  Time := 86 - int
+}
+
+EVR 91 {
+  xPosition := 3.03942185771
+  yPosition := 2.47926080099
+  OBJ_TYPE := "EVR" - str
+  Time := 87 - int
+}
+
+EVR 92 {
+  xPosition := 2.94263944698
+  yPosition := 2.48996166849
+  OBJ_TYPE := "EVR" - str
+  Time := 88 - int
+}
+
+EVR 93 {
+  xPosition := 2.85099786324
+  yPosition := 2.49962730228
+  OBJ_TYPE := "EVR" - str
+  Time := 89 - int
+}
+
+EVR 94 {
+  xPosition := 2.74104159619
+  yPosition := 2.50825352
+  OBJ_TYPE := "EVR" - str
+  Time := 90 - int
+}
+
+EVR 95 {
+  xPosition := 2.61606810683
+  yPosition := 2.51584906396
+  OBJ_TYPE := "EVR" - str
+  Time := 91 - int
+}
+
+EVR 96 {
+  xPosition := 2.47919893703
+  yPosition := 2.5224341004
+  OBJ_TYPE := "EVR" - str
+  Time := 92 - int
+}
+
+EVR 97 {
+  xPosition := 2.33336125033
+  yPosition := 2.52803874371
+  OBJ_TYPE := "EVR" - str
+  Time := 93 - int
+}
+
+EVR 98 {
+  xPosition := 2.18127369879
+  yPosition := 2.53270162061
+  OBJ_TYPE := "EVR" - str
+  Time := 94 - int
+}
+
+EVR 99 {
+  xPosition := 2.02543631843
+  yPosition := 2.53646848736
+  OBJ_TYPE := "EVR" - str
+  Time := 95 - int
+}
+
+EVR 100 {
+  xPosition := 1.86812413932
+  yPosition := 2.53939091066
+  OBJ_TYPE := "EVR" - str
+  Time := 96 - int
+}
+
+EVR 101 {
+  xPosition := 1.71138418589
+  yPosition := 2.54152502131
+  OBJ_TYPE := "EVR" - str
+  Time := 97 - int
+}
+
+EVR 102 {
+  xPosition := 1.5570355372
+  yPosition := 2.54293034775
+  OBJ_TYPE := "EVR" - str
+  Time := 98 - int
+}
+
+EVR 103 {
+  xPosition := 1.40667211612
+  yPosition := 2.54366873476
+  OBJ_TYPE := "EVR" - str
+  Time := 99 - int
+}
+
+EVR 104 {
+  xPosition := 1.26166787912
+  yPosition := 2.54380335116
+  OBJ_TYPE := "EVR" - str
+  Time := 100 - int
+}
+
+EVR 105 {
+  xPosition := 1.12318408517
+  yPosition := 2.54339778878
+  OBJ_TYPE := "EVR" - str
+  Time := 101 - int
+}
+
+EVR 106 {
+  xPosition := 0.992178331947
+  yPosition := 2.54251525367
+  OBJ_TYPE := "EVR" - str
+  Time := 102 - int
+}
+
+EVR 107 {
+  xPosition := 0.869415060087
+  yPosition := 2.5412178493
+  OBJ_TYPE := "EVR" - str
+  Time := 103 - int
+}
+
+EVR 108 {
+  xPosition := 0.779477240866
+  yPosition := 2.53956595042
+  OBJ_TYPE := "EVR" - str
+  Time := 104 - int
+}
+
+EVR 109 {
+  xPosition := 0.719898979231
+  yPosition := 2.53761766521
+  OBJ_TYPE := "EVR" - str
+  Time := 105 - int
+}
+
+EVR 110 {
+  xPosition := 0.688116382101
+  yPosition := 2.53542838282
+  OBJ_TYPE := "EVR" - str
+  Time := 106 - int
+}
+
+EVR 111 {
+  xPosition := 0.681508908876
+  yPosition := 2.53305040233
+  OBJ_TYPE := "EVR" - str
+  Time := 107 - int
+}
+
+EVR 112 {
+  xPosition := 0.697436935853
+  yPosition := 2.53053263891
+  OBJ_TYPE := "EVR" - str
+  Time := 108 - int
+}
+
+EVR 113 {
+  xPosition := 0.733275492687
+  yPosition := 2.52792040227
+  OBJ_TYPE := "EVR" - str
+  Time := 109 - int
+}
+
+EVR 114 {
+  xPosition := 0.78644417947
+  yPosition := 2.52525524236
+  OBJ_TYPE := "EVR" - str
+  Time := 110 - int
+}
+
+EVR 115 {
+  xPosition := 0.854433317927
+  yPosition := 2.52257485681
+  OBJ_TYPE := "EVR" - str
+  Time := 111 - int
+}
+
+EVR 116 {
+  xPosition := 0.934826429615
+  yPosition := 2.51991305462
+  OBJ_TYPE := "EVR" - str
+  Time := 112 - int
+}
+
+EVR 117 {
+  xPosition := 1.02531916809
+  yPosition := 2.51729977042
+  OBJ_TYPE := "EVR" - str
+  Time := 113 - int
+}
+
+EVR 118 {
+  xPosition := 1.12373486078
+  yPosition := 2.51476112366
+  OBJ_TYPE := "EVR" - str
+  Time := 114 - int
+}
+
+EVR 119 {
+  xPosition := 1.22803684034
+  yPosition := 2.51231951726
+  OBJ_TYPE := "EVR" - str
+  Time := 115 - int
+}
+
+EVR 120 {
+  xPosition := 1.33633776402
+  yPosition := 2.50999377015
+  OBJ_TYPE := "EVR" - str
+  Time := 116 - int
+}
+
+EVR 121 {
+  xPosition := 1.44690613478
+  yPosition := 2.50779927849
+  OBJ_TYPE := "EVR" - str
+  Time := 117 - int
+}
+
+EVR 122 {
+  xPosition := 1.55817024788
+  yPosition := 2.50574820058
+  OBJ_TYPE := "EVR" - str
+  Time := 118 - int
+}
+
+EVR 123 {
+  xPosition := 1.66871979378
+  yPosition := 2.50384966068
+  OBJ_TYPE := "EVR" - str
+  Time := 119 - int
+}
+
+EVR 124 {
+  xPosition := 1.77730535121
+  yPosition := 2.50210996717
+  OBJ_TYPE := "EVR" - str
+  Time := 120 - int
+}
+
+EVR 125 {
+  xPosition := 1.88283600422
+  yPosition := 2.50053284094
+  OBJ_TYPE := "EVR" - str
+  Time := 121 - int
+}
+
+EVR 126 {
+  xPosition := 1.98437531465
+  yPosition := 2.49911965026
+  OBJ_TYPE := "EVR" - str
+  Time := 122 - int
+}
+
+EVR 127 {
+  xPosition := 2.08113587578
+  yPosition := 2.49786964837
+  OBJ_TYPE := "EVR" - str
+  Time := 123 - int
+}
+
+EVR 128 {
+  xPosition := 2.1724726658
+  yPosition := 2.4967802109
+  OBJ_TYPE := "EVR" - str
+  Time := 124 - int
+}
+
+EVR 129 {
+  xPosition := 2.2818754105
+  yPosition := 2.49584707014
+  OBJ_TYPE := "EVR" - str
+  Time := 125 - int
+}
+
+EVR 130 {
+  xPosition := 2.40608015386
+  yPosition := 2.49506454375
+  OBJ_TYPE := "EVR" - str
+  Time := 126 - int
+}
+
+EVR 131 {
+  xPosition := 2.54199782308
+  yPosition := 2.49442575568
+  OBJ_TYPE := "EVR" - str
+  Time := 127 - int
+}
+
+EVR 132 {
+  xPosition := 2.68673241015
+  yPosition := 2.49392284766
+  OBJ_TYPE := "EVR" - str
+  Time := 128 - int
+}
+
+EVR 133 {
+  xPosition := 2.8375948729
+  yPosition := 2.49354717953
+  OBJ_TYPE := "EVR" - str
+  Time := 129 - int
+}
+
+EVR 134 {
+  xPosition := 2.99211305119
+  yPosition := 2.4932895174
+  OBJ_TYPE := "EVR" - str
+  Time := 130 - int
+}
+
+EVR 135 {
+  xPosition := 3.14803790962
+  yPosition := 2.49314020858
+  OBJ_TYPE := "EVR" - str
+  Time := 131 - int
+}
+
+EVR 136 {
+  xPosition := 3.30334642842
+  yPosition := 2.4930893426
+  OBJ_TYPE := "EVR" - str
+  Time := 132 - int
+}
+
+EVR 137 {
+  xPosition := 3.45624147004
+  yPosition := 2.49312689804
+  OBJ_TYPE := "EVR" - str
+  Time := 133 - int
+}
+
+EVR 138 {
+  xPosition := 3.60514894953
+  yPosition := 2.49324287472
+  OBJ_TYPE := "EVR" - str
+  Time := 134 - int
+}
+
+EVR 139 {
+  xPosition := 3.74871263385
+  yPosition := 2.49342741141
+  OBJ_TYPE := "EVR" - str
+  Time := 135 - int
+}
+
+EVR 140 {
+  xPosition := 3.88578688865
+  yPosition := 2.49367088921
+  OBJ_TYPE := "EVR" - str
+  Time := 136 - int
+}
+
+EVR 141 {
+  xPosition := 4.01542768126
+  yPosition := 2.49396402074
+  OBJ_TYPE := "EVR" - str
+  Time := 137 - int
+}
+
+EVR 142 {
+  xPosition := 4.1368821361
+  yPosition := 2.49429792581
+  OBJ_TYPE := "EVR" - str
+  Time := 138 - int
+}
+
+EVR 143 {
+  xPosition := 4.22557692419
+  yPosition := 2.49466419402
+  OBJ_TYPE := "EVR" - str
+  Time := 139 - int
+}
+
+EVR 144 {
+  xPosition := 4.28398575207
+  yPosition := 2.49505493494
+  OBJ_TYPE := "EVR" - str
+  Time := 140 - int
+}
+
+EVR 145 {
+  xPosition := 4.31467859751
+  yPosition := 2.49546281662
+  OBJ_TYPE := "EVR" - str
+  Time := 141 - int
+}
+
+EVR 146 {
+  xPosition := 4.32028047248
+  yPosition := 2.49588109328
+  OBJ_TYPE := "EVR" - str
+  Time := 142 - int
+}
+
+EVR 147 {
+  xPosition := 4.30343397928
+  yPosition := 2.49630362294
+  OBJ_TYPE := "EVR" - str
+  Time := 143 - int
+}
+
+EVR 148 {
+  xPosition := 4.2667656996
+  yPosition := 2.49672487592
+  OBJ_TYPE := "EVR" - str
+  Time := 144 - int
+}
+
+EVR 149 {
+  xPosition := 4.21285640572
+  yPosition := 2.49713993507
+  OBJ_TYPE := "EVR" - str
+  Time := 145 - int
+}
+
+EVR 150 {
+  xPosition := 4.14421503872
+  yPosition := 2.49754448861
+  OBJ_TYPE := "EVR" - str
+  Time := 146 - int
+}
+
+EVR 151 {
+  xPosition := 4.06325635888
+  yPosition := 2.4979348165
+  OBJ_TYPE := "EVR" - str
+  Time := 147 - int
+}
+
+EVR 152 {
+  xPosition := 3.97228214017
+  yPosition := 2.49830777119
+  OBJ_TYPE := "EVR" - str
+  Time := 148 - int
+}
+
+EVR 153 {
+  xPosition := 3.87346575139
+  yPosition := 2.49866075351
+  OBJ_TYPE := "EVR" - str
+  Time := 149 - int
+}
+
+EVR 154 {
+  xPosition := 3.76883994358
+  yPosition := 2.4989916847
+  OBJ_TYPE := "EVR" - str
+  Time := 150 - int
+}
+
+EVR 155 {
+  xPosition := 3.66028764369
+  yPosition := 2.49929897511
+  OBJ_TYPE := "EVR" - str
+  Time := 151 - int
+}
+
+EVR 156 {
+  xPosition := 3.54953554047
+  yPosition := 2.49958149045
+  OBJ_TYPE := "EVR" - str
+  Time := 152 - int
+}
+
+EVR 157 {
+  xPosition := 3.43815023791
+  yPosition := 2.49983851625
+  OBJ_TYPE := "EVR" - str
+  Time := 153 - int
+}
+
+EVR 158 {
+  xPosition := 3.32753674517
+  yPosition := 2.50006972106
+  OBJ_TYPE := "EVR" - str
+  Time := 154 - int
+}
+
+EVR 159 {
+  xPosition := 3.21893906871
+  yPosition := 2.50027511911
+  OBJ_TYPE := "EVR" - str
+  Time := 155 - int
+}
+
+EVR 160 {
+  xPosition := 3.11344267248
+  yPosition := 2.50045503273
+  OBJ_TYPE := "EVR" - str
+  Time := 156 - int
+}
+
+EVR 161 {
+  xPosition := 3.01197857497
+  yPosition := 2.50061005529
+  OBJ_TYPE := "EVR" - str
+  Time := 157 - int
+}
+
+EVR 162 {
+  xPosition := 2.91532885709
+  yPosition := 2.50074101476
+  OBJ_TYPE := "EVR" - str
+  Time := 158 - int
+}
+
+EVR 163 {
+  xPosition := 2.82413336246
+  yPosition := 2.50084893842
+  OBJ_TYPE := "EVR" - str
+  Time := 159 - int
+}
+
+EVR 164 {
+  xPosition := 2.7148973809
+  yPosition := 2.50093501906
+  OBJ_TYPE := "EVR" - str
+  Time := 160 - int
+}
+
+EVR 165 {
+  xPosition := 2.59088011678
+  yPosition := 2.50100058277
+  OBJ_TYPE := "EVR" - str
+  Time := 161 - int
+}
+
+EVR 166 {
+  xPosition := 2.45516615578
+  yPosition := 2.50104705861
+  OBJ_TYPE := "EVR" - str
+  Time := 162 - int
+}
+
+EVR 167 {
+  xPosition := 2.3106473087
+  yPosition := 2.50107595035
+  OBJ_TYPE := "EVR" - str
+  Time := 163 - int
+}
+
+EVR 168 {
+  xPosition := 2.1600087294
+  yPosition := 2.50108881037
+  OBJ_TYPE := "EVR" - str
+  Time := 164 - int
+}
+
+EVR 169 {
+  xPosition := 2.00571901191
+  yPosition := 2.5010872158
+  OBJ_TYPE := "EVR" - str
+  Time := 165 - int
+}
+
+EVR 170 {
+  xPosition := 1.85002395577
+  yPosition := 2.50107274684
+  OBJ_TYPE := "EVR" - str
+  Time := 166 - int
+}
+
+EVR 171 {
+  xPosition := 1.69494367822
+  yPosition := 2.50104696757
+  OBJ_TYPE := "EVR" - str
+  Time := 167 - int
+}
+
+EVR 172 {
+  xPosition := 1.54227274651
+  yPosition := 2.50101140885
+  OBJ_TYPE := "EVR" - str
+  Time := 168 - int
+}
+
+EVR 173 {
+  xPosition := 1.39358300246
+  yPosition := 2.50096755357
+  OBJ_TYPE := "EVR" - str
+  Time := 169 - int
+}
+
+EVR 174 {
+  xPosition := 1.25022875474
+  yPosition := 2.50091682401
+  OBJ_TYPE := "EVR" - str
+  Time := 170 - int
+}
+
+EVR 175 {
+  xPosition := 1.11335402072
+  yPosition := 2.50086057136
+  OBJ_TYPE := "EVR" - str
+  Time := 171 - int
+}
+
+EVR 176 {
+  xPosition := 0.983901509726
+  yPosition := 2.50080006714
+  OBJ_TYPE := "EVR" - str
+  Time := 172 - int
+}
+
+EVR 177 {
+  xPosition := 0.862623051802
+  yPosition := 2.50073649657
+  OBJ_TYPE := "EVR" - str
+  Time := 173 - int
+}
+
+EVR 178 {
+  xPosition := 0.774091190712
+  yPosition := 2.50067095366
+  OBJ_TYPE := "EVR" - str
+  Time := 174 - int
+}
+
+EVR 179 {
+  xPosition := 0.71583167633
+  yPosition := 2.50060443794
+  OBJ_TYPE := "EVR" - str
+  Time := 175 - int
+}
+
+EVR 180 {
+  xPosition := 0.685274209386
+  yPosition := 2.50053785266
+  OBJ_TYPE := "EVR" - str
+  Time := 176 - int
+}
+
+EVR 181 {
+  xPosition := 0.67979365836
+  yPosition := 2.50047200437
+  OBJ_TYPE := "EVR" - str
+  Time := 177 - int
+}
+
+EVR 182 {
+  xPosition := 0.696747482944
+  yPosition := 2.50040760363
+  OBJ_TYPE := "EVR" - str
+  Time := 178 - int
+}
+
+EVR 183 {
+  xPosition := 0.733509324677
+  yPosition := 2.50034526693
+  OBJ_TYPE := "EVR" - str
+  Time := 179 - int
+}
+
+EVR 184 {
+  xPosition := 0.787498775607
+  yPosition := 2.50028551939
+  OBJ_TYPE := "EVR" - str
+  Time := 180 - int
+}
+
+EVR 185 {
+  xPosition := 0.85620738053
+  yPosition := 2.50022879836
+  OBJ_TYPE := "EVR" - str
+  Time := 181 - int
+}
+
+EVR 186 {
+  xPosition := 0.937220967554
+  yPosition := 2.50017545761
+  OBJ_TYPE := "EVR" - str
+  Time := 182 - int
+}
+
+EVR 187 {
+  xPosition := 1.02823843557
+  yPosition := 2.50012577218
+  OBJ_TYPE := "EVR" - str
+  Time := 183 - int
+}
+
+EVR 188 {
+  xPosition := 1.12708715581
+  yPosition := 2.5000799435
+  OBJ_TYPE := "EVR" - str
+  Time := 184 - int
+}
+
+EVR 189 {
+  xPosition := 1.2317351684
+  yPosition := 2.500038105
+  OBJ_TYPE := "EVR" - str
+  Time := 185 - int
+}
+
+EVR 190 {
+  xPosition := 1.34030037361
+  yPosition := 2.5000003278
+  OBJ_TYPE := "EVR" - str
+  Time := 186 - int
+}
+
+EVR 191 {
+  xPosition := 1.45105693217
+  yPosition := 2.4999666266
+  OBJ_TYPE := "EVR" - str
+  Time := 187 - int
+}
+
+EVR 192 {
+  xPosition := 1.56243909922
+  yPosition := 2.49993696561
+  OBJ_TYPE := "EVR" - str
+  Time := 188 - int
+}
+
+EVR 193 {
+  xPosition := 1.67304272304
+  yPosition := 2.49991126442
+  OBJ_TYPE := "EVR" - str
+  Time := 189 - int
+}
+
+EVR 194 {
+  xPosition := 1.7816246428
+  yPosition := 2.49988940379
+  OBJ_TYPE := "EVR" - str
+  Time := 190 - int
+}
+
+EVR 195 {
+  xPosition := 1.88710021953
+  yPosition := 2.49987123126
+  OBJ_TYPE := "EVR" - str
+  Time := 191 - int
+}
+
+EVR 196 {
+  xPosition := 1.98853923133
+  yPosition := 2.49985656659
+  OBJ_TYPE := "EVR" - str
+  Time := 192 - int
+}
+
+EVR 197 {
+  xPosition := 2.08516035908
+  yPosition := 2.4998452069
+  OBJ_TYPE := "EVR" - str
+  Time := 193 - int
+}
+
+EVR 198 {
+  xPosition := 2.17632448072
+  yPosition := 2.49983693158
+  OBJ_TYPE := "EVR" - str
+  Time := 194 - int
+}
+
+EVR 199 {
+  xPosition := 2.26152698346
+  yPosition := 2.52383150681
+  OBJ_TYPE := "EVR" - str
+  Time := 195 - int
+}
+
+EVR 200 {
+  xPosition := 2.3403892921
+  yPosition := 2.56894868984
+  OBJ_TYPE := "EVR" - str
+  Time := 196 - int
+}
+
+EVR 201 {
+  xPosition := 2.4126497999
+  yPosition := 2.63236583282
+  OBJ_TYPE := "EVR" - str
+  Time := 197 - int
+}
+
+EVR 202 {
+  xPosition := 2.47815437526
+  yPosition := 2.71134553436
+  OBJ_TYPE := "EVR" - str
+  Time := 198 - int
+}
+
+EVR 203 {
+  xPosition := 2.53684660398
+  yPosition := 2.80325928173
+  OBJ_TYPE := "EVR" - str
+  Time := 199 - int
+}
+
+EVR 204 {
+  xPosition := 2.58875791275
+  yPosition := 2.905607233
+  OBJ_TYPE := "EVR" - str
+  Time := 200 - int
+}
+
+EVR 205 {
+  xPosition := 2.63399770522
+  yPosition := 3.01603431874
+  OBJ_TYPE := "EVR" - str
+  Time := 201 - int
+}
+
+EVR 206 {
+  xPosition := 2.67274362764
+  yPosition := 3.13234286739
+  OBJ_TYPE := "EVR" - str
+  Time := 202 - int
+}
+
+EVR 207 {
+  xPosition := 2.70523206691
+  yPosition := 3.25250197838
+  OBJ_TYPE := "EVR" - str
+  Time := 203 - int
+}
+
+EVR 208 {
+  xPosition := 2.73174896993
+  yPosition := 3.37465388164
+  OBJ_TYPE := "EVR" - str
+  Time := 204 - int
+}
+
+EVR 209 {
+  xPosition := 2.75262105979
+  yPosition := 3.49711753277
+  OBJ_TYPE := "EVR" - str
+  Time := 205 - int
+}
+
+EVR 210 {
+  xPosition := 2.76820751122
+  yPosition := 3.61838969918
+  OBJ_TYPE := "EVR" - str
+  Time := 206 - int
+}
+
+EVR 211 {
+  xPosition := 2.77889213577
+  yPosition := 3.73714379523
+  OBJ_TYPE := "EVR" - str
+  Time := 207 - int
+}
+
+EVR 212 {
+  xPosition := 2.78507611523
+  yPosition := 3.85222672337
+  OBJ_TYPE := "EVR" - str
+  Time := 208 - int
+}
+
+EVR 213 {
+  xPosition := 2.78717131154
+  yPosition := 3.96265397459
+  OBJ_TYPE := "EVR" - str
+  Time := 209 - int
+}
+
+EVR 214 {
+  xPosition := 2.7855941709
+  yPosition := 4.06760323498
+  OBJ_TYPE := "EVR" - str
+  Time := 210 - int
+}
+
+EVR 215 {
+  xPosition := 2.7807602314
+  yPosition := 4.16640673642
+  OBJ_TYPE := "EVR" - str
+  Time := 211 - int
+}
+
+EVR 216 {
+  xPosition := 2.77307923459
+  yPosition := 4.23454257888
+  OBJ_TYPE := "EVR" - str
+  Time := 212 - int
+}
+
+EVR 217 {
+  xPosition := 2.76295083462
+  yPosition := 4.2745052394
+  OBJ_TYPE := "EVR" - str
+  Time := 213 - int
+}
+
+EVR 218 {
+  xPosition := 2.75076089183
+  yPosition := 4.28885786971
+  OBJ_TYPE := "EVR" - str
+  Time := 214 - int
+}
+
+EVR 219 {
+  xPosition := 2.73687833216
+  yPosition := 4.28019412152
+  OBJ_TYPE := "EVR" - str
+  Time := 215 - int
+}
+
+EVR 220 {
+  xPosition := 2.72165254895
+  yPosition := 4.25110372867
+  OBJ_TYPE := "EVR" - str
+  Time := 216 - int
+}
+
+EVR 221 {
+  xPosition := 2.70541131973
+  yPosition := 4.2041418535
+  OBJ_TYPE := "EVR" - str
+  Time := 217 - int
+}
+
+EVR 222 {
+  xPosition := 2.68845920744
+  yPosition := 4.14180215861
+  OBJ_TYPE := "EVR" - str
+  Time := 218 - int
+}
+
+EVR 223 {
+  xPosition := 2.67107641278
+  yPosition := 4.06649352487
+  OBJ_TYPE := "EVR" - str
+  Time := 219 - int
+}
+
+EVR 224 {
+  xPosition := 2.653518043
+  yPosition := 3.98052030127
+  OBJ_TYPE := "EVR" - str
+  Time := 220 - int
+}
+
+EVR 225 {
+  xPosition := 2.63601376063
+  yPosition := 3.8860659422
+  OBJ_TYPE := "EVR" - str
+  Time := 221 - int
+}
+
+EVR 226 {
+  xPosition := 2.61876777564
+  yPosition := 3.78517986261
+  OBJ_TYPE := "EVR" - str
+  Time := 222 - int
+}
+
+EVR 227 {
+  xPosition := 2.60195914371
+  yPosition := 3.67976732126
+  OBJ_TYPE := "EVR" - str
+  Time := 223 - int
+}
+
+EVR 228 {
+  xPosition := 2.58574233431
+  yPosition := 3.57158212652
+  OBJ_TYPE := "EVR" - str
+  Time := 224 - int
+}
+
+EVR 229 {
+  xPosition := 2.57024803231
+  yPosition := 3.4622219473
+  OBJ_TYPE := "EVR" - str
+  Time := 225 - int
+}
+
+EVR 230 {
+  xPosition := 2.55558413854
+  yPosition := 3.35312600406
+  OBJ_TYPE := "EVR" - str
+  Time := 226 - int
+}
+
+EVR 231 {
+  xPosition := 2.54183693564
+  yPosition := 3.24557491065
+  OBJ_TYPE := "EVR" - str
+  Time := 227 - int
+}
+
+EVR 232 {
+  xPosition := 2.52907238742
+  yPosition := 3.14069243639
+  OBJ_TYPE := "EVR" - str
+  Time := 228 - int
+}
+
+EVR 233 {
+  xPosition := 2.51733754176
+  yPosition := 3.03944896012
+  OBJ_TYPE := "EVR" - str
+  Time := 229 - int
+}
+
+EVR 234 {
+  xPosition := 2.50666200893
+  yPosition := 2.94266639177
+  OBJ_TYPE := "EVR" - str
+  Time := 230 - int
+}
+
+EVR 235 {
+  xPosition := 2.49705948953
+  yPosition := 2.85102434409
+  OBJ_TYPE := "EVR" - str
+  Time := 231 - int
+}
+
+EVR 236 {
+  xPosition := 2.48852932836
+  yPosition := 2.74106734544
+  OBJ_TYPE := "EVR" - str
+  Time := 232 - int
+}
+
+EVR 237 {
+  xPosition := 2.48105807266
+  yPosition := 2.61609289449
+  OBJ_TYPE := "EVR" - str
+  Time := 233 - int
+}
+
+EVR 238 {
+  xPosition := 2.4746210157
+  yPosition := 2.47922256952
+  OBJ_TYPE := "EVR" - str
+  Time := 234 - int
+}
+
+EVR 239 {
+  xPosition := 2.4691837087
+  yPosition := 2.3333835688
+  OBJ_TYPE := "EVR" - str
+  Time := 235 - int
+}
+
+EVR 240 {
+  xPosition := 2.46470342635
+  yPosition := 2.18129457734
+  OBJ_TYPE := "EVR" - str
+  Time := 236 - int
+}
+
+EVR 241 {
+  xPosition := 2.46113057338
+  yPosition := 2.02545566203
+  OBJ_TYPE := "EVR" - str
+  Time := 237 - int
+}
+
+EVR 242 {
+  xPosition := 2.45841002165
+  yPosition := 1.86814188162
+  OBJ_TYPE := "EVR" - str
+  Time := 238 - int
+}
+
+EVR 243 {
+  xPosition := 2.45648236925
+  yPosition := 1.71140028693
+  OBJ_TYPE := "EVR" - str
+  Time := 239 - int
+}
+
+EVR 244 {
+  xPosition := 2.45528511488
+  yPosition := 1.55704998101
+  OBJ_TYPE := "EVR" - str
+  Time := 240 - int
+}
+
+EVR 245 {
+  xPosition := 2.4547537426
+  yPosition := 1.40668490836
+  OBJ_TYPE := "EVR" - str
+  Time := 241 - int
+}
+
+EVR 246 {
+  xPosition := 2.45482271361
+  yPosition := 1.26167904466
+  OBJ_TYPE := "EVR" - str
+  Time := 242 - int
+}
+
+EVR 247 {
+  xPosition := 2.45542636319
+  yPosition := 1.1231936657
+  OBJ_TYPE := "EVR" - str
+  Time := 243 - int
+}
+
+EVR 248 {
+  xPosition := 2.45649970226
+  yPosition := 0.992186383683
+  OBJ_TYPE := "EVR" - str
+  Time := 244 - int
+}
+
+EVR 249 {
+  xPosition := 2.45797912429
+  yPosition := 0.869421651518
+  OBJ_TYPE := "EVR" - str
+  Time := 245 - int
+}
+
+EVR 250 {
+  xPosition := 2.45980301924
+  yPosition := 0.779482450608
+  OBJ_TYPE := "EVR" - str
+  Time := 246 - int
+}
+
+EVR 251 {
+  xPosition := 2.4619122973
+  yPosition := 0.719902893989
+  OBJ_TYPE := "EVR" - str
+  Time := 247 - int
+}
+
+EVR 252 {
+  xPosition := 2.46425082577
+  yPosition := 0.688119094757
+  OBJ_TYPE := "EVR" - str
+  Time := 248 - int
+}
+
+EVR 253 {
+  xPosition := 2.46676578326
+  yPosition := 0.681510516706
+  OBJ_TYPE := "EVR" - str
+  Time := 249 - int
+}
+
+EVR 254 {
+  xPosition := 2.46940793593
+  yPosition := 0.697437538883
+  OBJ_TYPE := "EVR" - str
+  Time := 250 - int
+}
+
+EVR 255 {
+  xPosition := 2.47213184089
+  yPosition := 0.733275192198
+  OBJ_TYPE := "EVR" - str
+  Time := 251 - int
+}
+
+EVR 256 {
+  xPosition := 2.47489598202
+  yPosition := 0.786443076649
+  OBJ_TYPE := "EVR" - str
+  Time := 252 - int
+}
+
+EVR 257 {
+  xPosition := 2.47766284412
+  yPosition := 0.85443151266
+  OBJ_TYPE := "EVR" - str
+  Time := 253 - int
+}
+
+EVR 258 {
+  xPosition := 2.48039893099
+  yPosition := 0.934824019429
+  OBJ_TYPE := "EVR" - str
+  Time := 254 - int
+}
+
+EVR 259 {
+  xPosition := 2.48307473331
+  yPosition := 1.02531624723
+  OBJ_TYPE := "EVR" - str
+  Time := 255 - int
+}
+
+EVR 260 {
+  xPosition := 2.48566465217
+  yPosition := 1.12373151947
+  OBJ_TYPE := "EVR" - str
+  Time := 256 - int
+}
+
+EVR 261 {
+  xPosition := 2.48814688397
+  yPosition := 1.22803316407
+  OBJ_TYPE := "EVR" - str
+  Time := 257 - int
+}
+
+EVR 262 {
+  xPosition := 2.49050327213
+  yPosition := 1.33633383309
+  OBJ_TYPE := "EVR" - str
+  Time := 258 - int
+}
+
+EVR 263 {
+  xPosition := 2.4927191311
+  yPosition := 1.44690202385
+  OBJ_TYPE := "EVR" - str
+  Time := 259 - int
+}
+
+EVR 264 {
+  xPosition := 2.49478304773
+  yPosition := 1.55816602572
+  OBJ_TYPE := "EVR" - str
+  Time := 260 - int
+}
+
+EVR 265 {
+  xPosition := 2.49668666479
+  yPosition := 1.66871552309
+  OBJ_TYPE := "EVR" - str
+  Time := 261 - int
+}
+
+EVR 266 {
+  xPosition := 2.49842445123
+  yPosition := 1.77730108846
+  OBJ_TYPE := "EVR" - str
+  Time := 262 - int
+}
+
+EVR 267 {
+  xPosition := 2.49999346332
+  yPosition := 1.88283179971
+  OBJ_TYPE := "EVR" - str
+  Time := 263 - int
+}
+
+EVR 268 {
+  xPosition := 2.50139310055
+  yPosition := 1.98437121255
+  OBJ_TYPE := "EVR" - str
+  Time := 264 - int
+}
+
+EVR 269 {
+  xPosition := 2.50262485975
+  yPosition := 2.08113191425
+  OBJ_TYPE := "EVR" - str
+  Time := 265 - int
+}
+
+EVR 270 {
+  xPosition := 2.50369209063
+  yPosition := 2.1724688772
+  OBJ_TYPE := "EVR" - str
+  Time := 266 - int
+}
+
+EVR 271 {
+  xPosition := 2.5045997555
+  yPosition := 2.28187182162
+  OBJ_TYPE := "EVR" - str
+  Time := 267 - int
+}
+
+EVR 272 {
+  xPosition := 2.50535419549
+  yPosition := 2.40607678618
+  OBJ_TYPE := "EVR" - str
+  Time := 268 - int
+}
+
+EVR 273 {
+  xPosition := 2.50596290562
+  yPosition := 2.54199469314
+  OBJ_TYPE := "EVR" - str
+  Time := 269 - int
+}
+
+EVR 274 {
+  xPosition := 2.50643432019
+  yPosition := 2.68672952983
+  OBJ_TYPE := "EVR" - str
+  Time := 270 - int
+}
+
+EVR 275 {
+  xPosition := 2.50677761014
+  yPosition := 2.8375922498
+  OBJ_TYPE := "EVR" - str
+  Time := 271 - int
+}
+
+EVR 276 {
+  xPosition := 2.50700249345
+  yPosition := 2.99211068901
+  OBJ_TYPE := "EVR" - str
+  Time := 272 - int
+}
+
+EVR 277 {
+  xPosition := 2.50711905945
+  yPosition := 3.14803580852
+  OBJ_TYPE := "EVR" - str
+  Time := 273 - int
+}
+
+EVR 278 {
+  xPosition := 2.5071376076
+  yPosition := 3.30334458543
+  OBJ_TYPE := "EVR" - str
+  Time := 274 - int
+}
+
+EVR 279 {
+  xPosition := 2.50706850126
+  yPosition := 3.4562398794
+  OBJ_TYPE := "EVR" - str
+  Time := 275 - int
+}
+
+EVR 280 {
+  xPosition := 2.5069220364
+  yPosition := 3.60514760307
+  OBJ_TYPE := "EVR" - str
+  Time := 276 - int
+}
+
+EVR 281 {
+  xPosition := 2.5067083253
+  yPosition := 3.74871152134
+  OBJ_TYPE := "EVR" - str
+  Time := 277 - int
+}
+
+EVR 282 {
+  xPosition := 2.50643719509
+  yPosition := 3.88578599819
+  OBJ_TYPE := "EVR" - str
+  Time := 278 - int
+}
+
+EVR 283 {
+  xPosition := 2.50611810061
+  yPosition := 4.01542699956
+  OBJ_TYPE := "EVR" - str
+  Time := 279 - int
+}
+
+EVR 284 {
+  xPosition := 2.50576005112
+  yPosition := 4.13688164878
+  OBJ_TYPE := "EVR" - str
+  Time := 280 - int
+}
+
+EVR 285 {
+  xPosition := 2.50537155037
+  yPosition := 4.22557661611
+  OBJ_TYPE := "EVR" - str
+  Time := 281 - int
+}
+
+EVR 286 {
+  xPosition := 2.50496054909
+  yPosition := 4.28398560757
+  OBJ_TYPE := "EVR" - str
+  Time := 282 - int
+}
+
+EVR 287 {
+  xPosition := 2.50453440936
+  yPosition := 4.31467860066
+  OBJ_TYPE := "EVR" - str
+  Time := 283 - int
+}
+
+EVR 288 {
+  xPosition := 2.50409987981
+  yPosition := 4.32028060729
+  OBJ_TYPE := "EVR" - str
+  Time := 284 - int
+}
+
+EVR 289 {
+  xPosition := 2.50366308089
+  yPosition := 4.30343422991
+  OBJ_TYPE := "EVR" - str
+  Time := 285 - int
+}
+
+EVR 290 {
+  xPosition := 2.50322949929
+  yPosition := 4.26676605054
+  OBJ_TYPE := "EVR" - str
+  Time := 286 - int
+}
+
+EVR 291 {
+  xPosition := 2.50280399051
+  yPosition := 4.21285684193
+  OBJ_TYPE := "EVR" - str
+  Time := 287 - int
+}
+
+EVR 292 {
+  xPosition := 2.50239078879
+  yPosition := 4.14421554574
+  OBJ_TYPE := "EVR" - str
+  Time := 288 - int
+}
+
+EVR 293 {
+  xPosition := 2.50199352339
+  yPosition := 4.063256923
+  OBJ_TYPE := "EVR" - str
+  Time := 289 - int
+}
+
+EVR 294 {
+  xPosition := 2.50161524037
+  yPosition := 3.97228274844
+  OBJ_TYPE := "EVR" - str
+  Time := 290 - int
+}
+
+EVR 295 {
+  xPosition := 2.50125842903
+  yPosition := 3.87346639174
+  OBJ_TYPE := "EVR" - str
+  Time := 291 - int
+}
+
+EVR 296 {
+  xPosition := 2.50092505217
+  yPosition := 3.76884060487
+  OBJ_TYPE := "EVR" - str
+  Time := 292 - int
+}
+
+EVR 297 {
+  xPosition := 2.50061657939
+  yPosition := 3.66028831573
+  OBJ_TYPE := "EVR" - str
+  Time := 293 - int
+}
+
+EVR 298 {
+  xPosition := 2.50033402271
+  yPosition := 3.54953621402
+  OBJ_TYPE := "EVR" - str
+  Time := 294 - int
+}
+
+EVR 299 {
+  xPosition := 2.50007797388
+  yPosition := 3.43815090473
+  OBJ_TYPE := "EVR" - str
+  Time := 295 - int
+}
+
+EVR 300 {
+  xPosition := 2.49984864264
+  yPosition := 3.32753739798
+  OBJ_TYPE := "EVR" - str
+  Time := 296 - int
+}
+
+EVR 301 {
+  xPosition := 2.49964589546
+  yPosition := 3.21893970119
+  OBJ_TYPE := "EVR" - str
+  Time := 297 - int
+}
+
+EVR 302 {
+  xPosition := 2.49946929423
+  yPosition := 3.11344327924
+  OBJ_TYPE := "EVR" - str
+  Time := 298 - int
+}
+
+EVR 303 {
+  xPosition := 2.4993181344
+  yPosition := 3.0119791515
+  OBJ_TYPE := "EVR" - str
+  Time := 299 - int
+}
+
+EVR 304 {
+  xPosition := 2.49919148223
+  yPosition := 2.91532939975
+  OBJ_TYPE := "EVR" - str
+  Time := 300 - int
+}
+
+EVR 305 {
+  xPosition := 2.4990882107
+  yPosition := 2.82413386839
+  OBJ_TYPE := "EVR" - str
+  Time := 301 - int
+}
+
+EVR 306 {
+  xPosition := 2.49900703396
+  yPosition := 2.71489784799
+  OBJ_TYPE := "EVR" - str
+  Time := 302 - int
+}
+
+EVR 307 {
+  xPosition := 2.49894653991
+  yPosition := 2.59088054362
+  OBJ_TYPE := "EVR" - str
+  Time := 303 - int
+}
+
+EVR 308 {
+  xPosition := 2.49890522073
+  yPosition := 2.4551665416
+  OBJ_TYPE := "EVR" - str
+  Time := 304 - int
+}
+
+EVR 309 {
+  xPosition := 2.49888150138
+  yPosition := 2.3106476533
+  OBJ_TYPE := "EVR" - str
+  Time := 305 - int
+}
+
+EVR 310 {
+  xPosition := 2.4988737657
+  yPosition := 2.16000903309
+  OBJ_TYPE := "EVR" - str
+  Time := 306 - int
+}
+
+EVR 311 {
+  xPosition := 2.49888038029
+  yPosition := 2.00571927547
+  OBJ_TYPE := "EVR" - str
+  Time := 307 - int
+}
+
+EVR 312 {
+  xPosition := 2.49889971593
+  yPosition := 1.85002418037
+  OBJ_TYPE := "EVR" - str
+  Time := 308 - int
+}
+
+EVR 313 {
+  xPosition := 2.49893016674
+  yPosition := 1.69494386537
+  OBJ_TYPE := "EVR" - str
+  Time := 309 - int
+}
+
+EVR 314 {
+  xPosition := 2.49897016686
+  yPosition := 1.54227289801
+  OBJ_TYPE := "EVR" - str
+  Time := 310 - int
+}
+
+EVR 315 {
+  xPosition := 2.49901820496
+  yPosition := 1.39358312035
+  OBJ_TYPE := "EVR" - str
+  Time := 311 - int
+}
+
+EVR 316 {
+  xPosition := 2.49907283649
+  yPosition := 1.25022884123
+  OBJ_TYPE := "EVR" - str
+  Time := 312 - int
+}
+
+EVR 317 {
+  xPosition := 2.49913269378
+  yPosition := 1.11335407816
+  OBJ_TYPE := "EVR" - str
+  Time := 313 - int
+}
+
+EVR 318 {
+  xPosition := 2.49919649415
+  yPosition := 0.983901540567
+  OBJ_TYPE := "EVR" - str
+  Time := 314 - int
+}
+

@@ -1,0 +1,72 @@
+Non regression testing:
+1. Verify that the high level specification is satisfied
+	1a. manually write the formal specification
+	1b. generate a log
+	1c. verify the log
+	1d. store valid traces
+2. Verify that the low level specification is satisfied
+	2a. generate a log from a reference configuration
+	2b. build a reference automaton
+	2c. generate a log from the configuration under test
+	2d. verify the log
+
+
+
+The purpose is to verify that the modifications on a system from v1 to v2 did not impact its capabilities and performance
+
+
+
+1a. manually write the formal specification
+document /nonRegression/highLevelTesting/spec
+
+1b. generate a log
+Python 3
+command /nonRegression/system/Bayes_PettrV1.py
+document /nonRegression/highLevelTesting/temp/V1gross.log
+
+1c. verify the log
+Python 2
+command cd /nonRegression/highLevelTesting
+command export PYTHONPATH=$PYTHONPATH:/nonRegression/highLevelTesting
+command /nonRegression/highLevelTesting/scriptV1.py
+document /nonRegression/highLevelTesting/results/RESULTS
+
+1d. store valid traces
+folders /nonRegression/highLevelTesting/reports
+
+-FYI- Visualize automatons
+Python 2
+command xdot /nonRegression/highLevelTesting/results/P1.dot
+
+
+
+2a. generate a log from a reference configuration v1 and test conditions [a,b]
+-FYI- make sure that configuration v1 and test conditions [a,b] satisfies the High Level specification
+Python 3
+command cd /nonRegression/lowLevelTesting
+command /nonRegression/system/Bayes_PettrTKTv1.py
+temp document /nonRegression/lowLevelTesting/temp/v1Gross.csv
+document /nonRegression/lowLevelTesting/logs/LoLev_v1...
+
+2b. build a reference automaton
+Python 3
+copy/paste document /nonRegression/lowLevelTesting/logs/LoLev_v1... into /nonRegression/lowLevelTesting/validTraces
+suppress other documents potentially present
+command java -cp tkt.jar it.unimib.disco.lta.timedKTail.ui.InferModel validAutomatas/TAinferedFromCurrentValidTraces.jtml validTraces/
+-FYI- verify the non emptiness of the automata
+command java -cp tkt.jar it.unimib.disco.lta.timedKTail.ui.VisualizeAutomata validAutomatas/TAinferedFromCurrentValidTraces.jtml
+
+2c. generate a log from the configuration under test v2 with the same test conditions [a,b]
+-FYI- make sure that configuration v2 and test conditions [a,b] satisfies the High Level specification
+command /nonRegression/system/Bayes_PettrTKTv2.py
+temp document /nonRegression/lowLevelTesting/temp/v2Gross.csv
+document /nonRegression/lowLevelTesting/logs/LoLev_v2...
+
+2d. verify the log 
+command java -cp tkt.jar it.unimib.disco.lta.timedKTail.ui.ValidateTraces validAutomatas/TAinferedFromCurrentValidTraces.jtml logs/
+
+
+
+
+
+
